@@ -10,10 +10,38 @@
  /* Définition des polices personnalisées */
 
 @import 
-url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+       url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
 
 #bloc_page
- {
-	font-family: "Raleway", sans-serif !important;
+{
+	  font-family: "Raleway", sans-serif !important;
+      margin: 0 0 0 20px;
 }
+
+
+#logo h1
+{
+    display: flex;
+    justify-content: flex-start;
+    /*flex-direction: row;*/
+    /*align-items: baseline;*/
 }
+h2
+{
+    /*font-family: 'BallparkWeiner', serif;*/
+    font-size: 1.0em;
+    font-weight: normal;
+    
+}
+nav ul
+{
+    
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    top:    1.2em;
+    right:  1.2em;
+    
+}
+
+
