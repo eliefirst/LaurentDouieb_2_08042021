@@ -1,0 +1,19 @@
+/**
+ * This file is part of OpenClassRooms
+ *
+ * @license   Tous droits réservés
+ * @author    Elie Laurent (elie@redline.paris)
+ * @category  Formation
+ * @package   CSS projet2
+ * @copyright Copyright (c) 2021 
+ */
+ /* Définition des polices personnalisées */
+
+@import 
+url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+
+#bloc_page
+ {
+	font-family: "Raleway", sans-serif !important;
+}
+}
