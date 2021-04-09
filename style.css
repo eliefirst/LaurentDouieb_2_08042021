@@ -20,7 +20,7 @@
 }
 
 h1 {
-   font-size: 1.5vw;
+   font-size: 1.4vw;
 }
 #logo h1
 {
@@ -42,16 +42,16 @@ header
 
 }
 
-.container nav ul
+.container nav ul 
 {
     list-style-type: none;
     display: flex;	
-    justify-content: space-between;
-    border: 5px solid rgb(111,41,97);
-    border-radius: .5em;
-    margin-left: 23px;
-    padding: 5px;
-    width: 520px;
+    justify-content: space-around;
+    /*border: 1px solid rgb(10,41,97);/*/
+    /*border-radius: .15em;*/
+    margin-left: 1.50em;
+    padding-left: 0.5em;
+    width: 600px;
 
   }
   a:hover 
@@ -64,7 +64,39 @@ header
     text-decoration: none;
     color: blue;
   }
-  
+  button
+  {
+    color: #FFFFFF;
+    background: #0065fc;
+  }
+ .fas
+  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F2F2F2;
+  width: 30px;
+  height: 20px;
+  }
+  /*.search
+  {
+    /*list-style-type: none;*/
+    /*display: flex; 
+    /*flex-direction: column;
+    /*justify-content: space-between;/*
+    border: 1px solid rgb(111,41,97);
+    border-radius: .5em;
+    margin-left: 5px;
+    padding: 8px;/*largeur*/
+   /* width: 250px; /*longueur*/
 
+/*}
+  /*label
+  {
+    color: #FFFFFF;
+    background: #0065fc;
+    /*margin-left: 5px;
+    padding: 10px;/*largeur*/
+    /*width: 150px; /*longueur*/
 
-
+  /*}
