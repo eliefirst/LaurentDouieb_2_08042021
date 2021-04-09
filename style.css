@@ -14,34 +14,57 @@
 
 #bloc_page
 {
-	  font-family: "Raleway", sans-serif !important;
-      margin: 0 0 0 20px;
+	   font-family: "Raleway", sans-serif !important;
+      margin: 0 0 0 30px;
+
 }
 
-
+h1 {
+   font-size: 1.5vw;
+}
 #logo h1
 {
     display: flex;
     justify-content: flex-start;
-    /*flex-direction: row;*/
-    /*align-items: baseline;*/
+    
 }
 h2
 {
-    /*font-family: 'BallparkWeiner', serif;*/
-    font-size: 1.0em;
+    font-size: 1.0vw;
+    /*font-size: 1.0em;*/
     font-weight: normal;
     
 }
-nav ul
+header
 {
-    
-    list-style-type: none;
     display: flex;
-    position: absolute;
-    top:    1.2em;
-    right:  1.2em;
     
+
 }
+
+.container nav ul
+{
+    list-style-type: none;
+    display: flex;	
+    justify-content: space-between;
+    border: 5px solid rgb(111,41,97);
+    border-radius: .5em;
+    margin-left: 23px;
+    padding: 5px;
+    width: 520px;
+
+  }
+  a:hover 
+  {
+    color: black;
+
+  }
+  a
+  {
+    text-decoration: none;
+    color: blue;
+  }
+  
+
 
 
