@@ -11,21 +11,108 @@
 
 @import 
        url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+                /*--------------------HEAD----------------------*/  
+*
+{
+       font-family : 'Raleway', sans-serif;
+}                
 
+               /* ---------------------BODY-----------------------*/
 #bloc_page
 {
-	   font-family: "Raleway", sans-serif !important;
-      margin: 0 0 0 30px;
+	  /* font-family: "Raleway", sans-serif !important;
+      margin: 0 0 0 30px;*/
+       margin: 15px;
+       width: 1300px;
+       margin-block-start: 20px;
+}
+.bl
+{
+       display: flex;
+       width: 1300px;
+       margin: auto;
+} 
 
+/*@media screen and (max-width:768px)
+{
+    #bloc_page
+    {
+        width: 738px;
+    
+    }   
+
+    .bl
+    {
+        width: 768px; 
+          
+    }
 }
 
+@media screen and (max-width:375px)
+{
+    #bloc_page
+    {
+        width: 375px;
+    
+    }   
+
+    .bl
+    {
+        width: 375px; 
+          
+    }
+}*/
+               /*----------------------HEADER-------------------------*/
+.hd
+{
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    
+}
+a
+{
+    color: grey;
+    text-decoration: none;
+}
+a:hover
+{
+  color: #0065FC;
+}
+.title
+{
+  
+    display: flex;
+    align-items: center;
+}
+.t1
+{
+    padding: 2rem;
+    padding-right: 5rem; 
+    padding-left: 6rem;
+    text-align: center;
+    border-top: 3px transparent solid;
+    border-bottom: 3px transparent solid
+    
+}
+.t1:hover
+{
+    
+    border-top: 0.2em #0065FC solid;
+    
+}
+
+               /* ---------------------CONTENT-----------------------*/
 h1 {
-   font-size: 1.5vw;
+   font-size: 1.4vw;
 }
 #logo h1
 {
-    display: flex;
-    justify-content: flex-start;
+    /*display: flex;
+    /*justify-content: flex-start;*/
+    height: 40px;
+    padding: 1em;
+    margin-right: 450px;
     
 }
 h2
@@ -35,36 +122,63 @@ h2
     font-weight: normal;
     
 }
-header
+/*header
 {
     display: flex;
     
 
-}
+}*/
 
-.container nav ul
+.container nav ul 
 {
     list-style-type: none;
     display: flex;	
-    justify-content: space-between;
-    border: 5px solid rgb(111,41,97);
-    border-radius: .5em;
-    margin-left: 23px;
-    padding: 5px;
-    width: 520px;
+    justify-content: space-around;
+    /*border: 1px solid rgb(10,41,97);/*/
+    /*border-radius: .15em;*/
+    margin-left: 1.50em;
+    padding-left: 0.5em;
+    width: 600px;
 
-  }
-  a:hover 
-  {
-    color: black;
-
-  }
-  a
-  {
-    text-decoration: none;
-    color: blue;
   }
   
+ /* button
+  {
+    color: #FFFFFF;
+    background: #0065fc;
+  }*/
+ /*.fas, .re, .bt*/
+ #container2
+  {
+    display: flex;
+    flex-wrap: wrap;
+ 
+  }
+ .fas
+  {
+    background: #F2F2F2;
+    width: 30px;
+    height: 20px;
+  }
+  /*.search
+  {
+    /*list-style-type: none;*/
+    /*display: flex; 
+    /*flex-direction: column;
+    /*justify-content: space-between;/*
+    border: 1px solid rgb(111,41,97);
+    border-radius: .5em;
+    margin-left: 5px;
+    padding: 8px;/*largeur*/
+   /* width: 250px; /*longueur*/
 
+/*}
+  /*label
+  {
+    color: #FFFFFF;
+    background: #0065fc;
+    /*margin-left: 5px;
+    padding: 10px;/*largeur*/
+    /*width: 150px; /*longueur*/
 
-
+  /*}
