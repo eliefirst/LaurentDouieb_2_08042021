@@ -4,181 +4,85 @@
  * @license   Tous droits réservés
  * @author    Elie Laurent (elie@redline.paris)
  * @category  Formation
- * @package   CSS projet2
+ * @package   CSS prjet2
  * @copyright Copyright (c) 2021 
  */
- /* Définition des polices personnalisées */
-
-@import 
+ @import 
        url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
                 /*--------------------HEAD----------------------*/  
 *
 {
        font-family : 'Raleway', sans-serif;
-}                
-
-               /* ---------------------BODY-----------------------*/
-#bloc_page
-{
-	  /* font-family: "Raleway", sans-serif !important;
-      margin: 0 0 0 30px;*/
-       margin: 15px;
-       width: 1300px;
-       margin-block-start: 20px;
 }
-.bl
+img.logo
 {
-       display: flex;
-       width: 1300px;
-       margin: auto;
-} 
-
-/*@media screen and (max-width:768px)
-{
-    #bloc_page
-    {
-        width: 738px;
-    
-    }   
-
-    .bl
-    {
-        width: 768px; 
-          
-    }
+   padding: 2vw;
 }
-
-@media screen and (max-width:375px)
+div.title
 {
-    #bloc_page
-    {
-        width: 375px;
-    
-    }   
+  display: flex;
+  justify-content: space-around;
+  width: 40vw;
+  float: right;
+  margin:2vw 0.315vw 2em 0;
 
-    .bl
-    {
-        width: 375px; 
-          
-    }
-}*/
-               /*----------------------HEADER-------------------------*/
-.hd
+}
+a:hover 
 {
-    display: flex;
-    align-items: center;
-    max-width: 1300px;
+  color:#0065FC;
+  border-top: 0.2em #0065FC solid;
     
 }
-a
+a 
 {
-    color: grey;
+    color: gray;
     text-decoration: none;
+    
 }
-a:hover
+content,h1
 {
-  color: #0065FC;
+    font-size: 19px;
+    margin-top: 0.630vw;
+    margin-bottom: 2.205vw;
 }
-.title
+content,h2
 {
-  
-    display: flex;
+	font-size: 0.8em;
+    margin-top: 0.630vw;
+    margin-bottom: 2.205vw;
+}
+.Search i 
+{
+    float: left; 
+    display: flex;   
+    justify-content: center;
     align-items: center;
-}
-.t1
-{
-    padding: 2rem;
-    padding-right: 5rem; 
-    padding-left: 6rem;
-    text-align: center;
-    border-top: 3px transparent solid;
-    border-bottom: 3px transparent solid
-    
-}
-.t1:hover
-{
-    
-    border-top: 0.2em #0065FC solid;
-    
-}
-
-               /* ---------------------CONTENT-----------------------*/
-h1 {
-   font-size: 1.4vw;
-}
-#logo h1
-{
-    /*display: flex;
-    /*justify-content: flex-start;*/
-    height: 40px;
-    padding: 1em;
-    margin-right: 450px;
-    
-}
-h2
-{
-    font-size: 1.0vw;
-    /*font-size: 1.0em;*/
-    font-weight: normal;
-    
-}
-/*header
-{
-    display: flex;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+    width: 45px;
+    height: 45px;
+    color:black;
     
 
-}*/
-
-.container nav ul 
+}
+.Bouton
 {
-    list-style-type: none;
-    display: flex;	
-    justify-content: space-around;
-    /*border: 1px solid rgb(10,41,97);/*/
-    /*border-radius: .15em;*/
-    margin-left: 1.50em;
-    padding-left: 0.5em;
-    width: 600px;
-
-  }
-  
- /* button
-  {
     color: #FFFFFF;
-    background: #0065fc;
-  }*/
- /*.fas, .re, .bt*/
- #container2
-  {
-    display: flex;
-    flex-wrap: wrap;
- 
-  }
- .fas
-  {
-    background: #F2F2F2;
-    width: 30px;
-    height: 20px;
-  }
-  /*.search
-  {
-    /*list-style-type: none;*/
-    /*display: flex; 
-    /*flex-direction: column;
-    /*justify-content: space-between;/*
-    border: 1px solid rgb(111,41,97);
-    border-radius: .5em;
-    margin-left: 5px;
-    padding: 8px;/*largeur*/
-   /* width: 250px; /*longueur*/
+    background-color: #0065FC;
+    width: 130px;
+    border-radius: 0px 15px 15px 0px;
+    align-items: center;
+    height: 45px;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
 
-/*}
-  /*label
-  {
-    color: #FFFFFF;
-    background: #0065fc;
-    /*margin-left: 5px;
-    padding: 10px;/*largeur*/
-    /*width: 150px; /*longueur*/
+}
 
-  /*}
+.Search input 
+{
+    height: 3.4em;
+    border-left: 0em;
+    border-color: rgba(128, 128, 128, 0.151);
+    
+}
