@@ -13,6 +13,7 @@
 *
 {
        font-family : 'Raleway', sans-serif;
+       background-color: #FFFFFF;
 }
 img.logo
 {
@@ -37,6 +38,15 @@ a
 {
     color: gray;
     text-decoration: none;
+    
+}
+.Art,.Art2
+
+{
+    
+    margin: 35px;
+    width: 1300px;
+    margin-block-start: 30px;
     
 }
 content,h1
