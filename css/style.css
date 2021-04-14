@@ -1,10 +1,12 @@
 @import 
       url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
                 /*--------------------HEAD----------------------*/  
-*
-{
-       font-family : 'Raleway', sans-serif;
-       background-color: #FFFFFF;
+:root {
+  
+  font-family : 'Raleway', sans-serif;
+  --background-color: #F2F2F2;
+  --border-radius-search: 15px
+       
 }
 
 div {
@@ -13,3 +15,4 @@ div {
 .visibility {
   visibility: hidden;
   }
+
