@@ -16,6 +16,11 @@
        background-color: #FFFFFF;
 
 }
+header{
+  display: flex;
+  width: 1540px;
+}
+
 #bloc_page {
   background-color: #FFFFFF;
   margin: 15px;
@@ -35,12 +40,13 @@ nav ul
   display: flex;
 
   list-style-type: none;
-  align-items: baseline;
-  margin:0vw 0.315vw 2em 0;
+  align-items: center;
+  /*margin:0vw 0.315vw 2em 0;*/ 
   width: 40vw;
   height: 5vw;
   float: right;
   justify-content: space-around;
+  margin-left: 693px;
    
   
   
