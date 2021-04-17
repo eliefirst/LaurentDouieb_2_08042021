@@ -105,9 +105,9 @@ content,h1
 }
 content,h2
 {
-  font-size: 0.8em;
+    font-size: 0.8em;
     margin-top: 0.630vw;
-    margin-bottom: 2.205vw;
+    /*margin-bottom: 2.205vw;*/
 }
 .Search i 
 {
@@ -215,11 +215,33 @@ h2.visibility
 .color-unset {
     color: var(--color-gray);
 }
-.fas .color-set
+.populaires,.hebergements
 {
-   color: var(--color-blue);
+  background-color:var(--color-gray);
 }
-
+/*populaires
+#POP1
+{
+  display: flex
+}
+.titrepop
+{
+    padding-top: 6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titrepop i,.titrepop h3 {
+  font-size: 1.3rem;
+}
+.soleil
+{
+  display: flex;
+}
+/*.populaires
+{
+  color:var(--color-gray);
+}
 
 /*Footer*/
 .Footer
