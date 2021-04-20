@@ -309,10 +309,14 @@ footer{
     background-color: var(--color-gray);
     padding: 10vw 0 1vw 8vw;
     display: flex;
+    width: auto;
+    height: 20px;
 
 }
 
+
 .foo1 {
+    background-color: var(--color-gray);
     display: flex;
     flex-direction: column;
     margin-bottom: 10vw;
