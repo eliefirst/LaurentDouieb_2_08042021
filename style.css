@@ -23,7 +23,7 @@ header
 }
 body
 {
-	margin: 0;
+  margin: 0;
 }
 #bloc_page {
  
@@ -116,7 +116,7 @@ content,h3
 }
 .content a
 {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 /*Filtre*/
@@ -212,7 +212,9 @@ content,h3
     box-shadow: 0px 0px 10px 10px rgba(242, 242, 242);
 }
 .imghebergements {
-    height: 60%;
+    /*width: 40%;*/
+
+    height: 10vw;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     object-fit: cover;
@@ -220,10 +222,8 @@ content,h3
 }
 .hebergementstexte
 {
-    height: 4vw;
-    padding: .6vw;
-    padding-left: 0.6vw;
-    padding-left: .9vw;
+    height: 2vw;
+   
 
 }
 
@@ -236,33 +236,56 @@ content,h3
     margin: 0;
 }
 
-.affich{/*affich*/
+.affich{
+    display: flex;
+    justify-content:start;
+    align-items:flex-end;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1rem;
     color: black;
-	  margin: 85px;
-     
+    margin: 85px 850px 30px 200px
+    }
+.affich{
+  width: 200px;
+  height: 20px;
+
 }
+   
+
 
 /*okokok populaires*/
 .populairesglobal, .hebergementsglobal
 {
-	background-color: var(--color-gray);
+  background-color: var(--color-gray);
+  border-radius: 30px;
   
 }
-/*.populaires
+.select-marseille
 {
-  width: 30%;
-}*/
-
-.select {
-    padding-top: 6vw;
+    padding-top: 3vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 25px;
 }
+.select-marseille
+{
+  width: 300px;
+  height: 50px;
+}
+
+.select {
+    padding-top: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select,.select-marseille
+{
+  font-size: 25px;
+}
+
+
 .pop { 
     width: auto;
     height: 35%;
@@ -292,9 +315,9 @@ content,h3
 }
 .texte strong
 {
-	margin: 0;
+  margin: 0;
   font-size: 0.9rem;
-	
+  
 }
 .global {
     
