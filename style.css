@@ -189,12 +189,19 @@ content,h3
 }
 
 /* hebergements*/
-.hebergement {
+.hebergementsglobal {
     padding-bottom: 0;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*height: 20px;/*/
+
+
 }
 .heberg {
     width: auto;
-    height: 50vw;
+    /*height: 50vw;*/
     border: 5px solid white;
     background-color: white;
     border-radius: 20px;
@@ -209,13 +216,24 @@ content,h3
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     object-fit: cover;
+
 }
-.herbergementstexte {
+.hebergementstexte
+{
+    height: 4vw;
+    padding: .6vw;
+    padding-left: 0.6vw;
+    padding-left: .9vw;
+
+}
+
+.hebergementstexte {
     color: black;
     padding: 3vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
 }
 
 .affich{/*affich*/
@@ -223,14 +241,21 @@ content,h3
     font-weight: bold;
     font-size: 1.1rem;
     color: black;
-	margin: 85px;
+	  margin: 85px;
      
 }
+
 /*okokok populaires*/
-.populaires, .hebergements
+.populairesglobal, .hebergementsglobal
 {
 	background-color: var(--color-gray);
+  
 }
+/*.populaires
+{
+  width: 30%;
+}*/
+
 .select {
     padding-top: 6vw;
     display: flex;
@@ -240,7 +265,7 @@ content,h3
 }
 .pop { 
     width: auto;
-    height: 35vw;
+    height: 35%;
     background-color: white;
     border-radius: 20px;
     display: flex;
@@ -249,6 +274,7 @@ content,h3
 } 
 .popimg { 
     width: 40%;
+    /*height:60%;*/
     margin: 0;
     padding: 5px;
     object-fit: cover;
@@ -267,81 +293,55 @@ content,h3
 .texte strong
 {
 	margin: 0;
-
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 	
 }
 .global {
-    padding-bottom: 0;
-    padding-top: 0;
-}
-.heberg {
-    width: auto;
-    height: 50vw;
-    border: 5px solid white;
-    background-color: white;
-    border-radius: 20px;
+    
     display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    margin-top: 3vw;
-    box-shadow: 0px 0px 10px 10px rgba(242, 242, 242);
-}
-.imghebergements {
-    height: 60%;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    object-fit: cover;
-}
-.herbergementstexte {
-    color: black;
-    padding: 3vw;
-    display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     justify-content: space-between;
-    margin: 0;
+    padding-left: 3vw;
+    padding-right: 3vw;
+
 }
 
+
+
+.populairesglobal
+{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  flex-wrap: wrap;
+    /*justify-content: space-around;*/
+
+}
 
 /*Footer*/
 
 footer{
     background-color: var(--color-gray);
-    padding: 10vw 0 1vw 8vw;
+    padding: 3vw 0 1vw 8vw;
     display: flex;
     width: auto;
-    height: 20px;
+    height: 180px;
 
 }
 
-
-.foo1 {
-    background-color: var(--color-gray);
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10vw;
-    line-height: 2vw;
-    
-}
-.foo2 {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10vw;
-    line-height: 2vw;
-    margin-left: 300px;
-    margin-right: 300px;
-
-}
-.foo3 {
+.foo3 ,.foo2,.foo1 {
    display: flex;
     flex-direction: column;
     margin-bottom: 10vw;
     line-height: 2vw;
+    width: 30%;
+    text-decoration: none;
+    color: black;
 }
 .footergras {
     font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 2vw;
+   margin-bottom: 1vw;
     
 }
 
