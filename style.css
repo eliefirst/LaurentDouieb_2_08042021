@@ -51,6 +51,11 @@ nav ul
    
   
 }
+.menu
+{
+  color: black;
+    text-decoration: none;
+}
 nav a
 {
     color: black;
@@ -60,6 +65,10 @@ nav a:hover
 {
    color: var(--color-blue);
    border-top: 3px solid var(--color-blue);
+}
+span
+{
+  font-weight: bold;
 }
 /*content*/
 .Art,.Art2
@@ -99,7 +108,10 @@ content,h3
 {
     height: 40px;
     border-left: 0em;
-    border-color: rgba(242, 242, 242, 0.15);
+    /*border-color: rgba(242, 242, 242, 0.15);*/
+
+    border-bottom: 1px solid var(--color-gray);
+    border-top: 1px solid var(--color-gray);
 }
 .Bouton
 {
@@ -130,7 +142,7 @@ content,h3
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  width: 10vw;
+  width: 5vw;
 }
 .Banfiltre 
 {
@@ -191,16 +203,21 @@ content,h3
 /* hebergements*/
 .hebergementsglobal {
     padding-bottom: 0;
-    width: 60%;
+    width: 1100px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    /*height: 20px;/*/
+    justify-content: space-around;*/
+    height: 1300px;
+}
 
-
+.tophebergement
+{
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-around;
 }
 .heberg {
-    width: auto;
+    width: 30%;
     /*height: 50vw;*/
     border: 5px solid white;
     background-color: white;
@@ -212,28 +229,28 @@ content,h3
     box-shadow: 0px 0px 10px 10px rgba(242, 242, 242);
 }
 .imghebergements {
-    /*width: 40%;*/
-
-    height: 10vw;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     object-fit: cover;
-
 }
 .hebergementstexte
 {
-    height: 2vw;
+    height: auto;
    
 
 }
 
 .hebergementstexte {
     color: black;
-    padding: 3vw;
+    padding: 1vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
+}
+.afficher{
+  width: 200px;
+  height:200px;
 }
 
 .affich{
@@ -247,15 +264,12 @@ content,h3
     margin: 85px 850px 30px 200px
     }
 .affich{
-  width: 200px;
+  width: 150px;
   height: 20px;
 
 }
-   
-
-
 /*okokok populaires*/
-.populairesglobal, .hebergementsglobal
+/*.populairesglobal,*/ .hebergementsglobal
 {
   background-color: var(--color-gray);
   border-radius: 30px;
@@ -270,7 +284,7 @@ content,h3
 }
 .select-marseille
 {
-  width: 300px;
+  width: 850px;
   height: 50px;
 }
 
@@ -324,8 +338,8 @@ content,h3
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding-left: 3vw;
-    padding-right: 3vw;
+    /*padding-left: 3vw;
+    /*padding-right: 3vw;
 
 }
 
