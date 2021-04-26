@@ -372,11 +372,16 @@ content,h3
 {
   display: flex;
   justify-content: space-between;
-  /*width: 48%;
-  height: 30vw;*/
+  width: 48%;
+  height: auto;
 
 }
 .activites2
+{
+  display: flex;
+  justify-content: space-between;
+}
+/*.activites2
 {
   border-radius: 20px;
   display: flex;
@@ -384,7 +389,7 @@ content,h3
   text-decoration: none;
   margin-top: 6vw;
   box-shadow: 0px 10px 9px 6px rgba(242, 242, 242);
-}
+}*/
 .imgblock
 {
  width: 46%;
@@ -410,15 +415,12 @@ content,h3
 {
   display: flex;
   align-items: center;
-  
 }
-
-.port
+.port/*vieux port calanques*/
 {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  margin-top: 6vw;
   box-shadow: 0px 10px 9px 6px rgba(242, 242, 242);
 }
 .port
@@ -427,7 +429,7 @@ content,h3
   width: 30vw;
   height: 166vw;
 }
-.imgsmall
+.imgsmall/*Fort*/
 {
   border-radius: 20px;
   display: flex;
@@ -441,7 +443,7 @@ content,h3
  width: 27vw;
  height: 43vw;
 }
-.imgxs
+.imgxs/*frioul*/
 {
   border-radius: 20px;
   display: flex;
@@ -455,7 +457,7 @@ content,h3
  width: 27vw;
  height: 43vw;
 }
-.imgmedium
+.imgmedium/*notre dame longchamp*/
 {
   border-radius: 20px;
   display: flex;
@@ -468,7 +470,6 @@ content,h3
   margin-top:0;
   width:auto;
   height:20vw;
-
 }
 
 
