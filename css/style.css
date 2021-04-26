@@ -83,12 +83,13 @@ span
 }
 
 /*content*/
-.Art,.Art2
+/*.Art,.Art2
 {    
     margin: 35px;
     width: 1300px;
-    margin-block-start: 30px;    
-}
+    margin-block-start: 30px;  
+
+}*/
 h2.visibility
 {
   visibility:hidden;
@@ -317,7 +318,7 @@ content,h3
     justify-content: space-between;
     align-items: center;
 }
-.select,/*.select-marseille*/
+.select
 {
   font-size: 25px;
 }
