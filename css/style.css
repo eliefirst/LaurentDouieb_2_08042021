@@ -36,6 +36,7 @@ img.logo
 
   margin: 10px;
   padding: 25px;
+  height: 3vw;
   
 }
 nav ul
@@ -324,21 +325,21 @@ content,h3
 }
 .pop 
 { 
-    width: auto;
-    height: 35%;
-    border-radius: 20px;
-    display: flex;
-    text-decoration: none;
-    margin-top: 3vw;
+   width: 450px;
+   height: 278px;
+   border-radius: 20px;
+   display: flex;
+   margin-top: 3vw;
+
 } 
 .popimg { 
-    width: 40%;
-    /*height:60%;*/
-    margin: 0;
-    padding: 5px;
-    object-fit: cover;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
+   width: 168px;
+   height: 269px;
+   margin: 0;
+   padding: 5px;
+   object-fit: cover;
+   border-bottom-left-radius: 20px;
+   border-top-left-radius: 20px;
 }  
 .texte { 
     color: black;
