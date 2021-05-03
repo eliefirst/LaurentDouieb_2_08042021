@@ -82,15 +82,6 @@ span
 {
   font-weight: normal;
 }
-
-/*content*/
-/*.Art,.Art2
-{    
-    margin: 35px;
-    width: 1300px;
-    margin-block-start: 30px;  
-
-}*/
 h2.visibility
 {
   visibility:hidden;
@@ -225,7 +216,7 @@ content,h3
 {
   display: flex;
   flex-wrap: wrap;
- justify-content: space-around;
+  justify-content: space-around;
 }
 .heberg {
     width: 30%;
@@ -348,117 +339,115 @@ content,h3
 .flex 
 {
   display: flex;
+  /*flex-wrap: wrap;
+  flex-direction: row;*/
   width: 1500px;
   height: 600px;
-  /*flex-wrap: wrap;*/
-  /*justify-content: space-between;
-  /*flex-direction: column;*/
+  /*justify-content: space-around;*/
+
 
 }
 img
 {
   object-fit: cover;
 }
+.flex span
+{
+ padding-left:10%; 
+}
+
 /*vieux Port*/
 /*img*/
 .full 
-{  
-  height: 79%;
+{ 
+  height: 88%;
   width: 100%;
-  border: solid 1px #212121;
 }
+
 /*txt*/
 .marginstart
 {
  
  border: solid 1px #212121;
- margin-left: 0%;
- margin-top: -2%;
- padding-left:10%;
- width: 90%;
+ margin-bottom: 58px;
+ width: 39%;
+
+}
+.marg2
+{
+  width: 39%;
+}
+/*column2*/
+.activcolumn2
+{
+  margin-left: 3%;
+  width: 39%;
 }
 
 /*Fort de Pomègues*/
-/*txt*/
-.pomegues p
-{
- border: solid 1px #0065FC;
- margin-top: -4px;
- width: 193%;
- height: 36px;
- margin-left: 22%;
- padding-left: 10%;
- /*border-bottom-width: 01px;
- border-top-width: 01px;*/
- padding-top: 15px;
-}
 /*img*/
 .small
 {
+  height: 75%;
+  width: 100%;
+}
+/*txt*/
+.pomegues
+{
+  border: solid 1px #212121;
+  height: 42%;
+  width: 100;
   
-  height: 35%;
-  width: 203%;
-  margin-left: 22%;
-  border: solid 1px #0065FC; 
 }
 /*iles du Frioul*/
 /*img*/
 .xs
 {
-  height:22%;
-  width:141%;
-  padding-bottom: 26px;
-  margin-top: 277px;
-  border: solid 1px #0065FC; 
-  margin-left: -129px;
-  padding-top: 39px
-
-  
+  height:68%;
+  width:100%;
 }
 /*txt*/
-.marginfrioul
+.frioul
 {
- border: solid 1px #0065FC;
- margin-top: -2%;
- padding-left: 10%;
- width: 90%;
- margin-left: -54.5%;
- padding-right: 98px;
+  border: solid 1px #212121;
+  height: 33%;
+  margin-top: 26%;
+  width: 100%;
+}
+.marg2
+{
+ margin-left: 3%; 
 }
  /*notre dame de la garde*/
  /*img*/
 .nddlg
 {
-  height: 32%;
-  width: 102%;
-  margin-left: 22%;
-  border: solid 1px #0065FC; 
+  height: 69%;
+  width: 100%;
+ 
 }
 /*txt*/
 .marginnotredame
 {
-  /*margin-right: 54%;*/
-  border: solid 1px #0065FC;
-  /*margin-left: -113px;*/
-  margin-left: 58px;
+   border: solid 1px #212121;
+   height: 35%;
+   width: 100%
 }
 /*Longchamps*/
 /*img*/
 .longchamp
 {
-  height: 32%;
-  width: 102%;
-  margin-left: 22%;
-  border: solid 1px #0065FC;
-  margin-top: 305px;
-  margin-left: -89%;
+  height: 75%;
+  width: 100%;
+ 
 }
 /*txt*/
 .marginlongchamp
 {
-  border: solid 1px #0065FC;
-  margin-left: -202px;
-  margin-right: 39px;
+  border: solid 1px #212121;
+  margin-top: 15%;
+  height: 46%;
+  width: 100%;
 }
 /*.marginfrioul
 {
@@ -468,7 +457,6 @@ img
   height: 49px;
   margin-left: -79%;
 }
-
 /*a.actbis:nth-child(4)
 {
   order: -3;
@@ -485,15 +473,12 @@ img
 {
   height: 600px
 }
-
 /*.activtitre
 {
   width: 20%;
   height:21%;
   background-color:blue;
 }
-
-
 /*.imgactivites
 {
     
@@ -595,10 +580,6 @@ img
   width:auto;
   height:20vw;
 }
-
-
-
-
 /*Footer*/
 
 footer{
@@ -610,7 +591,7 @@ footer{
 }
 
 .foo1 {
-   display: flex;
+    display: flex;
     flex-direction: column;
     margin-bottom: 10vw;
     line-height: 2vw;
@@ -621,7 +602,7 @@ footer{
 .footergras {
     font-size: 1rem;
     font-weight: bold;
-   margin-bottom: 1vw;
+    margin-bottom: 1vw;
     
 }
 
