@@ -29,16 +29,22 @@ body
 #bloc_page {
  
    margin: 2.5% 2.5% 0 2.5%;
-  width: auto;
+   width: auto;
 }
 img.logo
 {
 
-  margin: 10px;
-  padding: 25px;
-  height: 3vw;
+  margin: 0.625rem;
+  padding: 1.5625rem;
+  height: 3.125vw;
   
 }
+/*.menu
+{
+  width: 100%;
+  top: 0;
+  position: absolute;
+}*/
 nav ul
 {
   display: flex;
@@ -72,7 +78,7 @@ nav a ,a,.menu
 nav a:hover 
 {
    color: var(--color-blue);
-   border-top: 3px solid var(--color-blue);
+   border-top: 0.1875rem solid var(--color-blue);
 }
 span
 {
@@ -88,7 +94,7 @@ h2.visibility
 }
 content,h1
 {
-    font-size: 19px;
+    font-size: 1.3875rem;
     margin-top: 0.630vw;
     margin-bottom: 2.205vw;
 }
@@ -97,40 +103,40 @@ content,h3
     font-size: 1.3rem;
    
 }
+content,h2
+{
+  font-size: 0.991rem;
+}
 .Search i
 {
     float: left; 
     display: flex;   
     justify-content: center;
     align-items: center;
-    border-radius: 15px 0px 0px 15px;
-    width: 40px;
-    height: 40px;
-    color:black;
+    border-radius: 0.9375vw 0rem 0rem 0.9375vw;
+    width: 2.5vw;
+    height: 2.5vw;
+    color: var(--color-black);
 }
 .Search input 
 {
-    height: 40px;
+    height: 2.5vw;
     border-left: 0em;
-    border-bottom: 1px solid var(--color-gray);
-    border-top: 1px solid var(--color-gray);
+    border-bottom: 0.0625vw solid var(--color-gray);
+    border-top: 0.0625vw solid var(--color-gray);
 }
 .Bouton
 {
     color: #FFFFFF;
     background-color: var(--color-blue);
-    width: 130px;
-    border-radius: 0px 15px 15px 0px;
+    width: 8.7%;
+    border-radius: 0rem 0.938rem 0.938rem 0rem;
     align-items: center;
-    height: 40px;
+    height: 2.5vw;
     cursor: pointer;
     display: inline-block;
     border: 0;
 
-}
-.content a
-{
-  font-size: 16px;
 }
 
 /*Filtre*/
@@ -148,12 +154,12 @@ content,h3
 }
 .Banfiltre 
 {
-  height: 50px;
-  width: 200px;
-  margin: 20px 20px 20px 0;
-  padding-right: 20px;
-  border: 2px solid var(--color-gray);
-  border-radius: 50px;
+  height: 3.125vw;
+  width: 13.3%;
+  margin: 1.25vw 1.25vw 1.25vw 0;
+  padding-right: 1.25vw;
+  border: 0.15vw solid var(--color-gray);
+  border-radius: 3.125vw;
   display: flex;
   align-items: center;
 }
@@ -164,10 +170,10 @@ content,h3
   align-items: center;
   background-color: var(--color-cylan);
   border-radius: 100%;
-  width: 50px;
-  height: 50px;
-  color: #0065FC;
-  margin-right: 10px;
+  width: 3.125vw;
+  height: 3.125vw;
+  color: var(--color-blue);
+  margin-right: 0.625vw;
 }
 .Info 
 {
@@ -179,17 +185,17 @@ content,h3
 .Info span i
 {
     /*font-size: 0.6rem;*/
-    width: 20px;
-    height: 20px;
+    width: 1.25vw;
+    height: 1.25vw;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     color: var(--color-blue);
-    border: 3px solid var(--color-gray);
-    border-radius: 50px;
+    border:  0.19367333763718528vw solid var(--color-gray);
+    border-radius: 3.125vw;
     position: relative;
-    left: -2px;
-    margin-right: 10px;
+    left: -0.1291155584247902vw;
+    margin-right: 0.625vw;
 }
 /*Start*/
 .blue i
@@ -203,15 +209,6 @@ content,h3
 }
 
 /* hebergements*/
-/*.hebergementsglobal {
-    padding-bottom: 0;
-    width: 1100px;
-    display: flex;
-    flex-wrap: wrap;
-    /*justify-content: space-around;*/
-   /* height: 1300px;*/
-
-
 .tophebergement
 {
   display: flex;
@@ -221,17 +218,17 @@ content,h3
 .heberg {
     width: 30%;
     height: 18vw;
-    border: 5px solid white;
-    border-radius: 20px;
+    border: 0.313rem solid white;
+    border-radius: 1.25vw;
     display: flex;
     flex-direction: column;
     text-decoration: none;
     margin-top: 3vw;
-    box-shadow: 0px 0px 10px 10px rgba(242, 242, 242);
+    box-shadow: 0px 0px 0.625vw 0.625vw rgba(242, 242, 242);
 }
 .imghebergements {
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
+    border-top-left-radius: 1.0329244673983216vw;
+    border-top-right-radius: 1.0329244673983216vw;
    
     height: 60%;
 }
@@ -261,21 +258,21 @@ content,h3
     align-items:flex-end;
     font-weight: bold;
     font-size: 1.1rem;
-    margin:38px 0px 0px 13px;
+    margin:2.375rem 0rem 0rem 0.813rem;
 }
 
 /*okokok populaires*/
 /*.populairesglobal,*/
 .hebergements
 {
-  border-radius: 30px;
-  width: 60%;
+  border-radius: 1.875rem;
+  width: 58%;
   
 }
 .populaires
 {
-  width: 20%;
-  border-radius: 30px;
+  width: 22%;
+  border-radius: 1.875rem;
 }
 .padding {
     padding-left: 4vw;
@@ -294,31 +291,33 @@ content,h3
 }
 .select
 {
-  font-size: 25px;
+  font-size: 1.563rem;
 }
+/*pop1-*/
 .pop 
 { 
-   width: 450px;
-   height: 278px;
-   border-radius: 20px;
-   display: flex;
-   margin-top: 3vw;
+  width: 100%;
+  height: 13.020833333333334vw;
+  border-radius: 1.25vw;
+  display: flex;
+  margin-top: 3vw;
 
 } 
 .popimg { 
-   width: 168px;
-   height: 269px;
+   width: 52%;
+   height: 95%;
    margin: 0;
-   padding: 5px;
-   border-bottom-left-radius: 20px;
-   border-top-left-radius: 20px;
-}  
+   padding:  0.3255208333333333vw;
+   object-fit: cover;
+   border-top-left-radius: 1.375vw;
+   border-bottom-left-radius: 1.375vw;
+}
 .texte { 
-    color: black;
     width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 1vw;
 }
 .texte strong
 {
@@ -334,30 +333,27 @@ content,h3
     
 }
 /*activités*/
-
-
 .flex 
 {
   display: flex;
-  /*flex-wrap: wrap;
-  flex-direction: row;*/
-  width: 1500px;
-  height: 600px;
-  /*justify-content: space-around;*/
-
-
+  width: 93.75vw;
+  height: 37.5vw;
 }
-img
-{
-  object-fit: cover;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
-}
+
 .activtitre
 {
-  box-shadow: 0px 10px 9px 6px rgba(242, 242, 242);
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
+  box-shadow: 0rem 0.313rem 1.125rem 0.438rem rgb(242, 242, 242);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1.375rem;
+  border-top-right-radius: 1.375rem;
+
+}
+.activtitre img
+{
+  border-top-left-radius: 1.375rem;
+  border-top-right-radius: 1.375rem;
+  object-fit: cover;
 }
 .flex span
 {
@@ -377,7 +373,7 @@ img
 .marginstart
 {
  
- margin-bottom: 58px;
+ margin-bottom: 4%;
  width: 39%;
 
 }
@@ -404,7 +400,7 @@ img
 {
  
   height: 42%;
-  width: 100;
+  width: 100%;
   
 }
 /*iles du Frioul*/
@@ -445,7 +441,7 @@ img
 /*img*/
 .longchamp
 {
-  height: 75%;
+  height: 77.8%;
   width: 100%;
  
 }
@@ -457,144 +453,16 @@ img
   height: 46%;
   width: 100%;
 }
-/*.marginfrioul
-{
-  border: solid 1px #0065FC;
-  margin-top: -30px;
-  width: 139px;
-  height: 49px;
-  margin-left: -79%;
-}
-/*a.actbis:nth-child(4)
-{
-  order: -3;
-}
-/*.flex a :nth-child(1)
-{
-  height:auto;
-}
-/*.flex p:nth-child(1)
-{
-  height:200px;
-}
-.flex a:nth-child(2)
-{
-  height: 600px
-}
-/*.activtitre
-{
-  width: 20%;
-  height:21%;
-  background-color:blue;
-}
-/*.imgactivites
-{
-    
-   border-top-left-radius: 16px;
-   border-top-right-radius: 16px;
-   
-   box-shadow: 0px 10px 9px 6px rgba(242, 242, 242);
-}*/
 
-/*.full
-{
- 
-  display: flex;
-}
-.medium
-{
-  height: 50%;
-  width: 20%;
-}
-.small
-{
-  height: 70%;
-  width: 20%;
-}
-.small
-{
-  display: flex;
-}
-.xs
-{
-  height: 30%;
-  width:20%;
-}
-.xs
-{
-  display: flex;
-}/*
-.activitestitre
-{
-  padding-left: 2vw;
-  height: 4vw;
-}
-/*.activitestexte
-{
-  display: flex;
-  align-items: center;
-}
-.port/*vieux port calanques
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 0px 10px 9px 6px rgba(242, 242, 242);
-}
-.port
-{
-  margin-top: 0;
-  width: 30vw;
-  height: 166vw;
-}
-.imgsmall/*Fort
-{
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 6vw;
-  box-shadow: 0px 10px 9px 6px rgba(242, 242, 242);
-}
-.imgsmall
-{
- margin-top: 0;
- width: 27vw;
- height: 43vw;
-}
-.imgxs/*frioul
-{
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 6vw;
-  box-shadow: 0px 10px 9px 6px rgba(242, 242, 242);
-}
-.imgxs
-{
- margin-top: 36px;
- width: 27vw;
- height: 43vw;
-}
-.imgmedium/*notre dame longchamp
-{
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 6vw;
-  box-shadow: 0px 10px 9px 6px rgba(242, 242, 242);
-}
-.imgmedium
-{
-  margin-top:0;
-  width:auto;
-  height:20vw;
-}
 /*Footer*/
 
 footer{
     padding: 3vw 0 1vw 8vw;
     display: flex;
     width: auto;
-    height: 180px;
+    height: 11.25vw;
+   
+
 
 }
 
@@ -603,9 +471,9 @@ footer{
     flex-direction: column;
     margin-bottom: 10vw;
     line-height: 2vw;
-    width: 30%;
+    width: 34%;
     text-decoration: none;
-    color: black;
+    color:var(--color-black)
 }
 .footergras {
     font-size: 1rem;
@@ -616,5 +484,4 @@ footer{
 
 .foo1 a {
     text-decoration: none;
-    color: black;
-}
+    color:var(--color-black)
