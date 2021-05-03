@@ -350,10 +350,19 @@ content,h3
 img
 {
   object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+.activtitre
+{
+  box-shadow: 0px 10px 9px 6px rgba(242, 242, 242);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
 }
 .flex span
 {
  padding-left:10%; 
+
 }
 
 /*vieux Port*/
@@ -368,7 +377,6 @@ img
 .marginstart
 {
  
- border: solid 1px #212121;
  margin-bottom: 58px;
  width: 39%;
 
@@ -394,7 +402,7 @@ img
 /*txt*/
 .pomegues
 {
-  border: solid 1px #212121;
+ 
   height: 42%;
   width: 100;
   
@@ -409,7 +417,7 @@ img
 /*txt*/
 .frioul
 {
-  border: solid 1px #212121;
+  
   height: 33%;
   margin-top: 26%;
   width: 100%;
@@ -429,7 +437,7 @@ img
 /*txt*/
 .marginnotredame
 {
-   border: solid 1px #212121;
+   
    height: 35%;
    width: 100%
 }
@@ -444,7 +452,7 @@ img
 /*txt*/
 .marginlongchamp
 {
-  border: solid 1px #212121;
+  
   margin-top: 15%;
   height: 46%;
   width: 100%;
