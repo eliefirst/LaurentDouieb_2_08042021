@@ -1,0 +1,121 @@
+.end-section {
+   padding-bottom: 3vw;
+}
+
+.card-title, .card-title-activite, .card-title-hebergement {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.card-populaire:hover, .card-hebergement:hover, .card-activite:hover {
+    transform: translateY(-.625rem);
+    transition: 0.5s;
+}
+
+/****** Header - start ******/
+
+header {
+    padding-bottom: 2vw;
+}
+
+.logo {
+    margin-top: 2vw;
+    margin-left: 3vw;
+}
+
+.menu {
+    width: 100%;
+    top: 0;
+    position: absolute;
+}
+
+nav {
+    width: 25%;
+    margin-right: 0;
+}
+
+.list_menu {
+    margin: 0;
+    align-items: center;
+}
+
+.list_menu li {
+    padding-top: 2vw;
+}
+
+.list_menu li:hover {
+    border-bottom: none;
+    border-top: 2px solid var(--color-primary);
+    padding-top: 1.85vw;
+}
+
+.inscription {
+    margin: 0;
+}
+
+.inscription a {
+    margin-right: 5vw;
+    padding-top: 2vw;
+}
+
+.padding {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+/****** Header - end ******/
+
+/***** Header - start *****/
+header {
+    height: 37vw;
+}
+
+.logo {
+    height: fit-content;
+    margin-top: 6vw;
+    margin-left: 7vw;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    top: -46px;
+}
+
+.list_menu {
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.list_menu li {
+    list-style: none;
+    width: 50%;
+    text-align: center;
+    border-bottom: var(--background-color) 3px solid;
+    padding-bottom: 4vw;
+}
+
+.list_menu li:hover {
+    border-bottom: var(--color-primary) 3px solid;
+}
+
+.list_menu li a {
+    color: black;
+}
+
+.list_menu li a:hover {
+    color: var(--color-primary);
+}
+
+.inscription a {
+    float: right;
+    margin-right: 7vw;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.lien {
+    text-decoration: none;
+}
