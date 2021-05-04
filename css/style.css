@@ -143,6 +143,7 @@ content,h2
 .Banner_Filtre
 {
   display: flex;
+ 
 
 }
 .Filtre 
@@ -163,6 +164,14 @@ content,h2
   display: flex;
   align-items: center;
 }
+.Banfiltre:hover
+{
+  color: var(--color-blue);
+  cursor: pointer; 
+  background-color: var(--color-cylan);
+  
+}
+
 .Banfiltre i 
 {
   display: flex;
@@ -485,3 +494,4 @@ footer{
 .foo1 a {
     text-decoration: none;
     color:var(--color-black)
+}
