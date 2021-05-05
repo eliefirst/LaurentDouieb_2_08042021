@@ -1,0 +1,90 @@
+/*"only screen and (min-width: 320px) and (max-width: 480px)"*/
+
+body
+{
+  margin: auto;
+}
+#bloc_page 
+{
+ 
+   margin: auto;
+   width: 480px;
+   
+}
+img.logo{
+  margin: 0rem;
+  padding: 1.2rem;
+  height: 10.125vw;  
+}
+content,h1{
+   font-size: 21px;
+   margin-top: 0.63vw;
+   margin-bottom: 2.205vw;
+   margin-left: 15px;
+}
+nav ul {
+   margin: 27vw 0vw 4em -5em;
+   width: 0vw;
+   height: 0vw;
+}
+.titre_s
+{
+	display: flex;
+	padding-bottom: 150px;
+	color:var(--color-blue);
+	font-weight: bold;
+}
+.titre_h
+{
+	padding-left: 157px;
+}	
+	
+.titre_a
+{
+	padding-left: 140px;
+	
+}
+
+nav a:hover {
+    
+    border-bottom: 0.1875rem solid var(--color-blue);
+    border-top:none;
+}
+  .titre_s:hover
+{
+    border-bottom:none;
+}
+  /*Content*/
+  .content a
+{
+    margin-left: 15px;
+    font-size: 14px;
+}
+  .Search
+{
+    
+    height: 100px;
+    margin-left: 45px;
+}
+  .Search i
+{
+    
+    border-radius: 3.938vw 0rem 0rem 3.938vw;
+    width: 12%;
+    height: 42%;
+}
+  .Search input 
+{
+    height: 42%;
+    
+}
+  .Bouton
+{
+    width: 22%;
+    border-radius: 0rem 0.938rem 0.938rem 0rem;
+    height: 42%;
+    
+   
+}
+
+/*Filtre*/

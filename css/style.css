@@ -21,6 +21,8 @@
 header
 {
   display: flex;
+
+
 }
 body
 {
@@ -29,7 +31,7 @@ body
 #bloc_page {
  
    margin: 2.5% 2.5% 0 2.5%;
-   width: auto;
+   width: 1503.87px;
 }
 img.logo
 {
@@ -39,16 +41,9 @@ img.logo
   height: 3.125vw;
   
 }
-/*.menu
-{
-  width: 100%;
-  top: 0;
-  position: absolute;
-}*/
 nav ul
 {
   display: flex;
-  list-style-type: none;
   align-items: center;
   margin:0vw 0.315vw 2em 42em;
   width: 40vw;
@@ -59,21 +54,19 @@ nav ul
  /*background-color*/
 .Search i,.hebergements,.populaires,footer
 {
-   background-color: var(--color-gray);
+    background-color: var(--color-gray);
 }
 #block_page,.heberg,.pop,.activitestexte
 {
    background-color: var(--color-white);
 }
-.menu
-{
-  color: black;
-    text-decoration: none;
-}
-nav a ,a,.menu
+
+nav a ,a,.menu,li
 {
    color: var(--color-black);
    text-decoration: none;
+   list-style-type: none;
+
 }
 nav a:hover 
 {
@@ -98,6 +91,7 @@ content,h1
     margin-top: 0.630vw;
     margin-bottom: 2.205vw;
 }
+
 content,h3
 {
     font-size: 1.3rem;
@@ -131,7 +125,6 @@ content,h2
     background-color: var(--color-blue);
     width: 8.7%;
     border-radius: 0rem 0.938rem 0.938rem 0rem;
-    align-items: center;
     height: 2.5vw;
     cursor: pointer;
     display: inline-block;
