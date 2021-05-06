@@ -1,5 +1,6 @@
-/*"only screen and (min-width: 320px) and (max-width: 480px)"*/
-
+                </*!---- iPhone 6+, 7+ and 8+ 
+        <link rel="stylesheet" media="only screen and 
+        (min-width: 414px) and (max-width: 736px)"href="./css/style-small.css"*/>
 body
 {
   margin: auto;
@@ -72,6 +73,7 @@ nav a:hover {
     border-radius: 3.938vw 0rem 0rem 3.938vw;
     width: 12%;
     height: 42%;
+    margin-left: -14px;
 }
   .Search input 
 {
@@ -80,11 +82,80 @@ nav a:hover {
 }
   .Bouton
 {
-    width: 22%;
-    border-radius: 0rem 0.938rem 0.938rem 0rem;
+    width: 20%;
+   /* border-radius: 0.93rem 0.93rem 0.93rem 0.93rem;*/
     height: 42%;
-    
-   
-}
-
+}  
 /*Filtre*/
+  .Filtre
+{
+  margin-left: 27px;
+  width: 375px;
+}
+  .Banner_Filtre
+{  
+  flex-wrap: wrap;
+}
+  .Banfiltre
+{
+  width: 189px;
+  height: 41px;
+  border-radius: 23px;
+  border: 2px solid var(--color-gray);
+}
+  .Banfiltre i 
+{
+  width: 46px;
+  height: 45px;
+}
+  .content, h2
+{
+  padding-left: 7px;
+  padding-top: 1px
+}
+  .EC
+{
+  width: 174px;
+  margin-left: 27px;
+}
+  .FA
+{
+  width: 150px;
+  margin-left: 15px;
+}
+  .RO
+{
+  width: 160px;
+  margin-left: 27px;
+ 
+}
+  .AN
+{
+  width: 250px;
+  margin-left: 27px;
+}
+/*info*/
+.Info 
+{
+    margin-top: 8vw;
+    margin-bottom: 8vw;
+    
+}
+.Info span i
+{
+    
+    width: 6.25vw;
+    height: 6.25vw;
+    margin-left: 27px;
+}
+.normal
+{
+  margin-left: 10px;
+  width: 300px;
+  font-weight: 250;
+}
+/*populaires-Hebergements*/
+.global
+{
+  flex-direction: column;
+}
