@@ -311,8 +311,8 @@ content,h2
    margin: 0;
    padding:  0.3255208333333333vw;
    object-fit: cover;
-   border-top-left-radius: 1.375vw;
-   border-bottom-left-radius: 1.375vw;
+   border-top-left-radius: 1.25vw;
+   border-bottom-left-radius: 1.25vw;
 }
 .texte { 
     width: 60%;

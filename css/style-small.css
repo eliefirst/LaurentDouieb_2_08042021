@@ -159,3 +159,37 @@ nav a:hover {
 {
   flex-direction: column;
 }
+.populaires
+{
+ height: 150vw;
+ width: 90vw;
+ border-radius: 0;
+}
+.pop 
+{ 
+  border-radius: 6.25vw;
+  margin-top: 3vw;
+  height: 42.021vw;
+
+
+} 
+.popimg 
+{ 
+   border-top-left-radius: 6.25vw;
+   border-bottom-left-radius: 6.25vw;
+   padding-top: 1.326vw;
+   padding-bottom: 1.326vw;
+   padding-left: 1.326vw;
+  
+}
+.texte 
+{ 
+   width: 49%;
+   justify-content: center;
+   margin-left: 5vw;
+   height: 41vw;
+} 
+.blue
+{
+  margin-top:5vw;
+}
