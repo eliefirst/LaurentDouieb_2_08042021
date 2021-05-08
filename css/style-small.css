@@ -75,15 +75,39 @@ nav a:hover {
     height: 42%;
     margin-left: -14px;
 }
+.Search input 
+{
+    border-right-width: 0px;
+    border-bottom: 0.0625vw solid var(--color-gray);
+    border-top: 0.0625vw solid var(--color-gray);
+}
+  .Bouton
+{
+  display: none;
+
+}  
   .Search input 
 {
     height: 42%;
     
 }
-  .Bouton
+#icon-search
+{
+  display: block;
+  margin: -42px auto auto 204px;
+  background-color: var(--color-blue);
+  height: 28px;
+  width: 31px;
+  padding-left: 14px;
+  padding-top: 14px;
+  color:var(--color-white);
+  border-radius: 15px;
+  margin-left: 207px;
+} 
+
+.Bouton
 {
     width: 20%;
-   /* border-radius: 0.93rem 0.93rem 0.93rem 0.93rem;*/
     height: 42%;
 }  
 /*Filtre*/
@@ -161,7 +185,6 @@ nav a:hover {
 }
 .populaires
 {
- height: 150vw;
  width: 90vw;
  border-radius: 0;
 }
@@ -180,6 +203,7 @@ nav a:hover {
    padding-top: 1.326vw;
    padding-bottom: 1.326vw;
    padding-left: 1.326vw;
+   height: 94%;
   
 }
 .texte 
@@ -191,5 +215,119 @@ nav a:hover {
 } 
 .blue
 {
-  margin-top:5vw;
+  margin-top:-3vw;
+}
+/*hebergements*/
+.hebergements
+{
+  border-radius: 1.875rem;
+  width: 58%;
+  background: var(--color-white)
+ 
+}
+.tophebergement
+{
+  flex-direction: column;
+}
+.heberg {
+    width: 130%;
+    height: 52vw;
+    border: 0.313rem solid white;
+    border-radius: 4.25vw;
+    box-shadow: 0rem 0.313rem 1.125rem 0.438rem rgb(242, 242, 242);
+    
+}
+.imghebergements {
+    border-top-left-radius: 3.25vw;
+    border-top-right-radius: 3.25vw;
+    height: 30vw;
+}
+/*activités*/
+.flex 
+{
+ flex-direction: column;
+ /*width: 220.75vw;*/
+ height: 326vw;
+ justify-content: space-around;
+ /*align-items:center;
+ /*align-content: space-between;*/
+ margin-left: 25px;
+}
+.select
+{
+ 
+ width: 244px;
+ margin: 2px auto 37px 29px;
+}
+/*.port{
+  margin-left: 25px;
+}*/
+.activtitre
+{
+  box-shadow: 0rem 0.313rem 1.125rem 0.438rem rgb(242, 242, 242);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1.375rem;
+  border-top-right-radius: 1.375rem;
+
+}
+.activtitre img
+{
+  height: 150px;
+  width: 338px;
+}
+.marginstart
+{
+    margin-bottom: 7%;
+    margin-left: 3%;
+    width: 338px;
+}
+.marg2 {
+    
+    margin-block: 30px;
+}
+.nddlg
+{
+  height: 69%;
+  width: 100%;
+}
+.pomegues {
+    height: 47%;
+    width: 224%;
+}
+.frioul
+{  
+  height: 47%;  
+  width: 224%;
+  margin-top: 18%;
+}
+.marginlongchamp 
+{
+    margin-top: 21%;
+    height: 47%;
+    width: 224%;
+}
+.marginnotredame {
+    height: 46%;
+    width: 226%;
+} 
+/*.activtitre img
+{
+  margin-top: -26px;
+
+}*/
+footer
+{
+  flex-direction: column;
+  height: 100vw;
+  margin-top: 93px;
+}
+.foo1
+{
+  margin-bottom: 10vw;
+  line-height: 2vw;
+  width: 62%;
+}
+.foo1 a {
+  margin-top: 5vw;
 }

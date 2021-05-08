@@ -31,7 +31,7 @@ body
 #bloc_page {
  
    margin: 2.5% 2.5% 0 2.5%;
-   width: 1503.87px;
+   /*width: 1503.87px;*/
 }
 img.logo
 {
@@ -39,6 +39,7 @@ img.logo
   margin: 0.625rem;
   padding: 1.5625rem;
   height: 3.125vw;
+
   
 }
 nav ul
@@ -85,6 +86,7 @@ h2.visibility
 {
   visibility:hidden;
 }
+
 content,h1
 {
     font-size: 1.3875rem;
@@ -101,6 +103,10 @@ content,h2
 {
   font-size: 0.991rem;
 }
+#icon-search
+{
+ display: none;
+ } 
 .Search i
 {
     float: left; 
@@ -121,7 +127,7 @@ content,h2
 }
 .Bouton
 {
-    color: #FFFFFF;
+    color:var(--color-white);
     background-color: var(--color-blue);
     width: 8.7%;
     border-radius: 0rem 0.938rem 0.938rem 0rem;
@@ -186,7 +192,6 @@ content,h2
 }
 .Info span i
 {
-    /*font-size: 0.6rem;*/
     width: 1.25vw;
     height: 1.25vw;
     display: inline-flex;
@@ -231,14 +236,8 @@ content,h2
 .imghebergements {
     border-top-left-radius: 1.0329244673983216vw;
     border-top-right-radius: 1.0329244673983216vw;
-   
+    object-fit: cover;
     height: 60%;
-}
-.hebergementstexte
-{
-    height: auto;
-   
-
 }
 
 .hebergementstexte {
@@ -249,9 +248,6 @@ content,h2
     justify-content: space-between;
     margin: 0;
 }
-/*  width: 200px;
-  height:200px;
-}*/
 
 .affich
 {
@@ -321,12 +317,7 @@ content,h2
     justify-content: space-between;
     margin-bottom: 1vw;
 }
-.texte strong
-{
-  margin: 0;
-  font-size: 0.9rem;
-  
-}
+
 .global {
     
     display: flex;
@@ -365,7 +356,7 @@ content,h2
 
 /*vieux Port*/
 /*img*/
-.full 
+.port,.cal
 { 
   height: 88%;
   width: 100%;
@@ -413,13 +404,7 @@ content,h2
   width:100%;
 }
 /*txt*/
-.frioul
-{
-  
-  height: 33%;
-  margin-top: 26%;
-  width: 100%;
-}
+
 .marg2
 {
  margin-left: 3%; 
@@ -459,13 +444,11 @@ content,h2
 /*Footer*/
 
 footer{
-    padding: 3vw 0 1vw 8vw;
-    display: flex;
-    width: auto;
-    height: 11.25vw;
-   
-
-
+ padding: 2.6vw 2vw 1vw 6vw;
+display: flex;
+width: 90.8vw;
+height: 13.25vw;
+margin-left: 2px;
 }
 
 .foo1 {
@@ -473,7 +456,7 @@ footer{
     flex-direction: column;
     margin-bottom: 10vw;
     line-height: 2vw;
-    width: 34%;
+    width: 32%;
     text-decoration: none;
     color:var(--color-black)
 }
@@ -481,7 +464,6 @@ footer{
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 1vw;
-    
 }
 
 .foo1 a {
