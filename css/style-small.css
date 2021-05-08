@@ -1,6 +1,6 @@
-                </*!---- iPhone 6+, 7+ and 8+ 
+                /*!---- iPhone 6+, 7+ and 8+ 
         <link rel="stylesheet" media="only screen and 
-        (min-width: 414px) and (max-width: 736px)"href="./css/style-small.css"*/>
+        (min-width: 414px) and (max-width: 736px)"href="./css/style-small.css"*/
 body
 {
   margin: auto;
@@ -9,7 +9,7 @@ body
 {
  
    margin: auto;
-   width: 480px;
+   width: 414px;
    
 }
 img.logo{
@@ -34,6 +34,7 @@ nav ul {
 	padding-bottom: 150px;
 	color:var(--color-blue);
 	font-weight: bold;
+  
 }
 .titre_h
 {
@@ -222,7 +223,8 @@ nav a:hover {
 {
   border-radius: 1.875rem;
   width: 58%;
-  background: var(--color-white)
+  background: var(--color-white);
+  margin-left: 25px;
  
 }
 .tophebergement
@@ -246,11 +248,8 @@ nav a:hover {
 .flex 
 {
  flex-direction: column;
- /*width: 220.75vw;*/
  height: 326vw;
  justify-content: space-around;
- /*align-items:center;
- /*align-content: space-between;*/
  margin-left: 25px;
 }
 .select
@@ -326,7 +325,8 @@ footer
 {
   margin-bottom: 10vw;
   line-height: 2vw;
-  width: 62%;
+  width: 64%;
+
 }
 .foo1 a {
   margin-top: 5vw;
