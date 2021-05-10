@@ -9,54 +9,60 @@ body
 {
  
    margin: auto;
-   width: 414px;
+   width: auto;   
+}
+.logo
+{
+  width:18vw;
    
+  
 }
-img.logo{
-  margin: 0rem;
-  padding: 1.2rem;
-  height: 10.125vw;  
+img.logo
+{
+  margin-left: 2rem;
 }
-content,h1{
-   font-size: 21px;
-   margin-top: 0.63vw;
-   margin-bottom: 2.205vw;
-   margin-left: 15px;
+.header-nav {
+    width: 73%;
+    align-items: end;
+   /* padding-left: 3.5rem;*/
 }
-nav ul {
-   margin: 27vw 0vw 4em -5em;
-   width: 0vw;
-   height: 0vw;
+.header-bar {
+  align-items: center;
+  width: 46%;
 }
 .titre_s
 {
-	display: flex;
-	padding-bottom: 150px;
-	color:var(--color-blue);
-	font-weight: bold;
-  
-}
-.titre_h
-{
-	padding-left: 157px;
-}	
-	
-.titre_a
-{
-	padding-left: 140px;
-	
+ padding-top: 10px;
+ padding-bottom: 98px;
+ color: var(--color-blue);
+ padding-top: 3.038rem;
+ font-weight: bold;
 }
 
-nav a:hover {
-    
-    border-bottom: 0.1875rem solid var(--color-blue);
-    border-top:none;
-}
-  .titre_s:hover
+.header a
 {
-    border-bottom:none;
+ padding-right: 7%;
+ width: 80%;
+ padding-left: 35px
+
+}
+.header a:hover
+{
+   color: var(--color-blue);
+   border-top:none; 
+   border-bottom:0.1875rem solid var(--color-blue);
+}
+nav .titre_s:hover
+{
+    border-bottom:none; 
 }
   /*Content*/
+.content, h1 
+{
+  margin-top: 2%;
+  margin-bottom: 5.205vw;
+  margin-left: 1%;
+}
   .content a
 {
     margin-left: 15px;
@@ -186,7 +192,7 @@ nav a:hover {
 }
 .populaires
 {
- width: 90vw;
+ width: 92vw;
  border-radius: 0;
 }
 .pop 
@@ -194,9 +200,18 @@ nav a:hover {
   border-radius: 6.25vw;
   margin-top: 3vw;
   height: 42.021vw;
+}
+.marseille/*hebergements*/
+{
+  width: 381px;
+  margin: 2px 2px 2px -17px;
+}
 
-
-} 
+.select /*populaires*/
+{
+ width: 392px;
+ margin: 2px auto 37px -10px
+}
 .popimg 
 { 
    border-top-left-radius: 6.25vw;
@@ -224,19 +239,20 @@ nav a:hover {
   border-radius: 1.875rem;
   width: 58%;
   background: var(--color-white);
-  margin-left: 25px;
- 
+  margin-left: 25px; 
 }
+
 .tophebergement
 {
   flex-direction: column;
 }
 .heberg {
-    width: 130%;
+    width: 145%;
     height: 52vw;
     border: 0.313rem solid white;
     border-radius: 4.25vw;
     box-shadow: 0rem 0.313rem 1.125rem 0.438rem rgb(242, 242, 242);
+    margin-left: -13px
     
 }
 .imghebergements {
@@ -252,11 +268,11 @@ nav a:hover {
  justify-content: space-around;
  margin-left: 25px;
 }
-.select
+.affich
 {
- 
- width: 244px;
- margin: 2px auto 37px 29px;
+ width: 351px;
+ margin: 46px auto 37px -5px;
+
 }
 /*.port{
   margin-left: 25px;

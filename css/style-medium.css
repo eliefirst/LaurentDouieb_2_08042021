@@ -9,52 +9,59 @@ body
 {
  
    margin: auto;
-   width: 414px;
+   width: auto;   
+}
+.logo
+{
+  width:18vw;
    
+  
 }
-img.logo{
-  margin: 0rem;
-  padding: 1.2rem;
-  height: 10.125vw;  
-}
-content,h1{
-  font-size: 19px;
-  margin-top: 0px;
-  margin-bottom: 4.205vw;
-  margin-left: 11px;
-}
-nav ul {
-   margin: 27vw 0vw 4em -5em;
-   width: 0vw;
-   height: 0vw;
-}
-.titre_s
+img.logo
 {
-	display: flex;
-	padding-bottom: 150px;
-	color:var(--color-blue);
-	font-weight: bold;
-	width: 85px;
+  margin-top: -3rem;
+  padding-top: 2.038rem;
 }
-.titre_h
-{
-	padding-left: 157px;
-}	
-	
-.titre_a
-{
-  padding-left: 81px;	
+.header-nav {
+    width: 73%;
+    align-items: end;
+    
+
+}
+.header-bar {
+  align-items: center;
+  width: 46%;
 }
 
-nav a:hover {
-    
-    border-bottom: 0.1875rem solid var(--color-blue);
-    border-top:none;
-}
-  .titre_s:hover
+.titre_s
 {
-    border-bottom:none;
+ padding-top: 10px;
+ padding-bottom: 98px;
+ color: var(--color-blue);
+ padding-top: 3.038rem;
+
+
 }
+.header a
+{
+ padding-right: 7%;
+ width: 81%;
+ padding-left: 35px
+
+}
+.header a:hover
+{
+   color: var(--color-blue);
+   border-top:none; 
+   border-bottom:0.1875rem solid var(--color-blue);
+}
+nav .titre_s:hover
+{
+  
+   border-bottom:none; 
+   
+}
+
   /*Content*/
   .content a
 {
@@ -260,8 +267,8 @@ h3 span
 }
 .select
 { 
- width: 122%;
- margin: 2px auto 37px 4px;
+ width: 102%;
+ margin: 2px auto 37px -13px;
 }
 /*.port{
   margin-left: 25px;
