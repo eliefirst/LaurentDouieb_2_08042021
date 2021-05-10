@@ -183,7 +183,7 @@ nav .titre_s:hover
 {
   margin-left: 10px;
   width: 300px;
-  font-weight: 250;
+ 
 }
 /*populaires-Hebergements*/
 .global
@@ -296,10 +296,6 @@ nav .titre_s:hover
     margin-bottom: 7%;
     margin-left: 3%;
     width: 338px;
-}
-.marg2 {
-    
-    margin-block: 30px;
 }
 .nddlg
 {
