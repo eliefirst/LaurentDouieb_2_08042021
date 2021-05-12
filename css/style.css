@@ -29,25 +29,31 @@ body
 }
 .logo
 {
-  width: 7%;
-  padding-top: 1.03846154rem; 
-}
+  /*width: 7%;*/
+ /* padding-top: 1.03846154rem; */
+ }
 .header a
 {
  width: 43%;
  text-align: end;
  text-decoration: none;
- margin-bottom: -17px;
+ 
 
 }
 .header a:hover
 {
   color: var(--color-blue);
   border-top: 0.1875rem solid var(--color-blue);
-
-  
 }
-
+.titre_s
+{
+  color: var(--color-blue);
+  font-weight: bold;
+}
+nav .titre_s:hover
+{
+    border-top:none; 
+}
 .header-bar
 {
  display: flex;
@@ -98,10 +104,10 @@ h2.visibility
 
 content,h1
 {
-    font-size: 1.3875rem;
-    margin-top: 0.630vw;
-    margin-bottom: 2.205vw;
-    padding-top: 2rem;
+    font-size: 139%;
+    margin-top: 0.7%;
+    margin-bottom: 2.3%;
+    padding-top: 2.2%;
 }
 
 content,h3
@@ -118,23 +124,30 @@ content,h2
 {
   display:none;
 }
+.Search
+{
+  display: flex;
+  height: 5rem;
+  align-items: center;
+  margin-left: -4.3%;
+}
 .Search i
 {
     float: left; 
     display: flex;   
     justify-content: center;
     align-items: center;
-    border-radius: 0.9375vw 0rem 0rem 0.9375vw;
-    width: 2.5vw;
-    height: 2.5vw;
+    border-radius: 0.9375rem 0rem 0rem 0.9375rem;
+    width: 2.5rem;
+    height: 2.5rem;
     color: var(--color-black);
 }
 .Search input 
 {
-    height: 2.5vw;
+    height: 2.5rem;
     border-left: 0em;
-    border-bottom: 0.0625vw solid var(--color-gray);
-    border-top: 0.0625vw solid var(--color-gray);
+    border-bottom: 0.0625rem solid var(--color-gray);
+    border-top: 0.0625rem solid var(--color-gray);
 }
 .Bouton
 {
@@ -142,7 +155,7 @@ content,h2
     background-color: var(--color-blue);
     width:6%;
     border-radius: 0rem 0.938rem 0.938rem 0rem;
-    height: 2.5vw;
+    height: 2.5rem;
     cursor: pointer;
     display: inline-block;
     border: 0;
@@ -161,16 +174,16 @@ content,h2
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  width: 5vw;
+  width: 5rem;
 }
 .Banfiltre 
 {
-  height: 3.125vw;
+  height: 3.125rem;
   width: 13.3%;
-  margin: 1.25vw 1.25vw 1.25vw 0;
-  padding-right: 1.25vw;
-  border: 0.15vw solid var(--color-gray);
-  border-radius: 3.125vw;
+  margin: 1.25rem 1.25rem 1.25rem 0;
+  padding-right: 1.25rem;
+  border: 0.15rem solid var(--color-gray);
+  border-radius: 3.125rem;
   display: flex;
   align-items: center;
 }
@@ -189,31 +202,31 @@ content,h2
   align-items: center;
   background-color: var(--color-cylan);
   border-radius: 100%;
-  width: 3.125vw;
-  height: 3.125vw;
+  width: 3.125rem;
+  height: 3.125rem;
   color: var(--color-blue);
-  margin-right: 0.625vw;
+  margin-right: 0.625rem;
 }
 .Info 
 {
-    margin-top: 3vw;
-    margin-bottom:  3vw;
+    margin-top: 3rem;
+    margin-bottom:  3rem;
     display: flex;
     align-items: center;
 }
 .Info span i
 {
-    width: 1.25vw;
-    height: 1.25vw;
+    width: 1.25rem;
+    height: 1.25rem;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     color: var(--color-blue);
-    border:  0.19367333763718528vw solid var(--color-gray);
-    border-radius: 3.125vw;
+    border:  0.19367333763718528rem solid var(--color-gray);
+    border-radius: 3.125rem;
     position: relative;
-    left: -0.1291155584247902vw;
-    margin-right: 0.625vw;
+    left: -0.1291155584247902rem;
+    margin-right: 0.625rem;
 }
 /*Start*/
 .blue i
@@ -235,25 +248,25 @@ content,h2
 }
 .heberg {
     width: 30%;
-    height: 18vw;
+    height: 18rem;
     border: 0.313rem solid white;
-    border-radius: 1.25vw;
+    border-radius: 1.25rem;
     display: flex;
     flex-direction: column;
     text-decoration: none;
-    margin-top: 3vw;
-    box-shadow: 0px 0px 0.625vw 0.625vw rgba(242, 242, 242);
+    margin-top: 3rem;
+    box-shadow: 0rem 0rem 0.625rem 0.625rem rgba(242, 242, 242);
 }
 .imghebergements {
-    border-top-left-radius: 1.0329244673983216vw;
-    border-top-right-radius: 1.0329244673983216vw;
+    border-top-left-radius: 1.0329244673983216rem;
+    border-top-right-radius: 1.0329244673983216rem;
     object-fit: cover;
     height: 60%;
 }
 
 .hebergementstexte {
     color: black;
-    padding: 1vw;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -284,16 +297,16 @@ content,h2
   border-radius: 1.875rem;
 }
 .padding {
-    padding-left: 4vw;
-    padding-right: 4vw;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 .end
 {
-  padding-bottom: 3vw;
+  padding-bottom: 3rem;
 }
 
 .select {
-    padding-top: 3vw;
+    padding-top: 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -306,27 +319,27 @@ content,h2
 .pop 
 { 
   width: 100%;
-  height: 13.020833333333334vw;
-  border-radius: 1.25vw;
+  height: 13.020833333333334rem;
+  border-radius: 1.25rem;
   display: flex;
-  margin-top: 3vw;
+  margin-top: 3rem;
 
 } 
 .popimg { 
    width: 52%;
    height: 95%;
    margin: 0;
-   padding:  0.3255208333333333vw;
+   padding:  0.3255208333333333rem;
    object-fit: cover;
-   border-top-left-radius: 1.25vw;
-   border-bottom-left-radius: 1.25vw;
+   border-top-left-radius: 1.25rem;
+   border-bottom-left-radius: 1.25rem;
 }
 .texte { 
     width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 1vw;
+    margin-bottom: 1rem;
 }
 
 .global {
@@ -340,8 +353,8 @@ content,h2
 .flex 
 {
   display: flex;
-  width: 93.75vw;
-  height: 37.5vw;
+  width: 93.75rem;
+  height: 37.5rem;
 }
 
 .activtitre
@@ -414,7 +427,7 @@ content,h2
 {
  width: 100%;
  height: 35%;
- margin-top: 77px;
+ margin-top: 22.6%;
 }
 /*txt*/
 .marg2
@@ -457,29 +470,26 @@ content,h2
 /*Footer*/
 
 footer{
- padding: 2.6vw 2vw 1vw 6vw;
-display: flex;
-width: 90.8vw;
-height: 13.25vw;
-margin-left: 2px;
+ padding: 2% 2% 2% 2%;
+ display: flex;
+ justify-content: space-between;
+ height: 13.25rem;
 }
 
 .foo1 {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10vw;
-    line-height: 2vw;
-    width: 32%;
-    text-decoration: none;
-    color:var(--color-black)
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: space-around;
+
 }
 .footergras {
     font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 1vw;
+    margin-bottom: 1rem;
 }
 
-.foo1 a {
+/*.foo1 a {
     text-decoration: none;
     color:var(--color-black)
 }
