@@ -1,140 +1,93 @@
- /*-- Tablets------>
-        <link rel="stylesheet" media="only screen and 
-        (min-device-width: 768px) and (max-width: 1024px)" 
-        href="./css/style-large.css"/>*/
+/*min-width: 768px) and (max-width: 1024px)*/ 
 
-
-.logo
+body
 {
-  width: 16%;
-  padding-top: 1.03846154rem; 
+  width: auto;
+  
 }
-img.logo
+.header-nav 
 {
-  margin-top: -1rem;
-  padding-top: 2.038rem;
-  margin-left: 1rem;
+   width: 57%;
+   flex-wrap: nowrap;
+   height: 6rem;
 }
-.header
-{
-	width: auto;
-	height: 6rem;
+.header-nav :nth-child(3){
+ /*background-color: red;/**/
+   flex-grow: 1;
+ 
 }
-.header-nav {
-    width: 70%;
-    height: 0rem;
+.header-nav :nth-child(1){
+ /*background-color: green;*/
+   flex-grow: 1;
+}
+.header-nav :nth-child(2){
+ /*background-color: yellow;*/
+   flex-grow: 1;
 }
 .header-bar {
-  width: auto;
-  height: 5rem;
+    width: 100%;
+    height: 8rem;
 }
-.titre_s
+.Search
 {
- padding-bottom: 0px;
- font-weight: bold;
- /*color: var(--color-blue);*/
+   width: 200%;
+}
+.Banner_Filtre {
+	display: flex;
+	flex-wrap: wrap;
+}
+.Banfiltre {	
+	width: 28.3%;	
+}
+.Filtre {
+	width: 19%;
+}
+
+.RO{
+	margin-left: 19%;
+}
+/*hebergement*/
+.global{
+	flex-wrap: wrap-reverse;
+}
+.hebergements {
+	
+	width: auto;
+}
+.heberg{
+    width: 46%;
+}
+.populaires{
+    margin-top: 2%;
+    width: 100%
+
 
 }
-.header a
-{
- padding-right: 7%;
+.pop{
+    width: 100%;
 }
-nav a:hover 
-{
-   color: var(--color-blue);
-   border-top: 0.1875rem solid var(--color-blue);
-   border-bottom:none;
+.flex{
+	width: auto;
+	margin-left: -2%;
+    margin-right: -2%;
 }
-/*Search*/
-#icon-search
-{
-  display:none;
+.flex span {
+	font-size: 70%;
+	padding-left:4%
 }
-.Bouton
-{
-   display: inline-block;
-   width: 12%
-}
-.Search i
-{
-	width: 6%
-}
-/*Filtre*/
-.Filtre,.normal
-{
-	width: 70%
-}
-.Info span i
-{
-	width: 4.25vw;
-    height: 4.25vw;
-}
-/*pop*/
-.titlepop
-{
-	margin: 1% auto auto -3%;
-}
-.popimg {
-   border-top-left-radius: 5.8vw;
-   border-bottom-left-radius: 5.8vw;
-   padding-top: 1.326vw;
-   padding-bottom: 1.326vw;
-   padding-left: 1.326vw;
-   width: 65%;
-   
-    }
-.pop {
-	border-radius: 6.25vw;	
-	height: 32.021vw;
-	margin: 2vw auto 5vw 0vw;
 
+.marginstart{
+	margin-bottom: 13%;
 }
-.texte {
-	width: 38%;
-	justify-content: center;
-	margin-left: 1vw;
-	height: 32vw;
+.marginlongchamp {
+	margin-top: 1rem;
 }
-.heberg {
-	width: 157%;
-	height: 49vw;
-	border: 0.313rem solid white;
-	border-radius: 4.25vw;
-	box-shadow: 0rem 0.313rem 1.125rem 0.438rem rgb(242, 242, 242);
+footer{	
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
 }
-.blue
-{
-margin-top: 3vw;
-}
-.marseille
-{
-	margin: auto;
-}
-.affich
-{
-	margin: 5vw auto -5vw 2vw;
-}
-/*activités*/
-
-.activcolumn2
-{
-	height: 29%;
-    width: 94%;
-}
-/*texte*/
-.activtitre
-{
-	width: 94%;
-	height:12%;
-}
-.pomegues,.frioul,.marginnotredame,.marginlongchamp
-{
-	width: 100%;
-    height: 40%;
-}
-/*img*/
-.activtitre img
-{
-	width: 100%;
-    height: 80%;
+.foo1{
+	width: 26%;
 }
