@@ -5,7 +5,6 @@
 {
        font-family : 'Raleway', sans-serif;
        
-
 }
 /*general color*/
 :root {
@@ -15,10 +14,8 @@
     --color-gray: #F2F2F2;
     --color-white:#FFFFFF;
     --color-black:#000000;
-
 }
 /*Header*-logo-*/
-
 body
 {
   margin: 0;
@@ -45,6 +42,13 @@ body
   color: var(--color-blue);
   border-top: 0.1875rem solid var(--color-blue);
 }
+nav .titre_s:hover {
+  border-top: none;  
+}
+.titre_s{
+  font-weight: bold;
+  color: var(--color-blue);
+}
 .header-bar
 {
  display: flex;
@@ -57,8 +61,9 @@ body
  display:flex;
  justify-content: space-evenly;
  align-items: center;
-
 }
+
+
  /*background-color*/
 .Search i,.hebergements,.populaires,footer
 {
@@ -68,7 +73,6 @@ body
 {
    background-color: var(--color-white);
 }
-
 nav a ,a,.menu,li
 {
    color: var(--color-black);
@@ -92,7 +96,6 @@ h2.visibility
 {
   visibility:hidden;
 }
-
 content,h1
 {
     font-size: 1.3875rem;
@@ -100,12 +103,9 @@ content,h1
     margin-bottom: 2.205rem;
     padding-top: 2rem;
 }
-
 content,h3
 {
     font-size: 1.3rem;
-
-   
 }
 content,h2
 {
@@ -123,8 +123,7 @@ content,h2
     align-items: center;
     border-radius: 0.9375rem 0rem 0rem 0.9375rem;
     width: 3%;
-    height: 2.5rem;
-    
+    height: 2.5rem;    
 }
 .Search input 
 {
@@ -144,13 +143,10 @@ content,h2
     display: inline-block;
     border: 0;
 }
-
 /*Filtre*/
 .Banner_Filtre
 {
   display: flex;
- 
-
 }
 .Filtre 
 {
@@ -174,10 +170,8 @@ content,h2
 {
   color: var(--color-blue);
   cursor: pointer; 
-  background-color: var(--color-cylan);
-  
+  background-color: var(--color-cylan);  
 }
-
 .Banfiltre i 
 {
   display: flex;
@@ -246,7 +240,6 @@ content,h2
     object-fit: cover;
     height: 60%;
 }
-
 .hebergementstexte {
     color: black;
     padding: 1rem;
@@ -255,7 +248,6 @@ content,h2
     justify-content: space-between;
     margin: 0;
 }
-
 .affich
 {
     display: flex;
@@ -265,14 +257,11 @@ content,h2
     font-size: 1.1rem;
     margin:2.375rem 0rem 0rem 0.813rem;
 }
-
-/*okokok populaires*/
 /*.populairesglobal,*/
 .hebergements
 {
   border-radius: 1.875rem;
-  width: 58%;
-  
+  width: 58%;  
 }
 .populaires
 {
@@ -287,7 +276,6 @@ content,h2
 {
   padding-bottom: 3.20%;
 }
-
 .select {
     padding-top: 3rem;
     display: flex;
@@ -306,7 +294,6 @@ content,h2
   border-radius: 1.25rem;
   display: flex;
   margin-top: 3rem;
-
 } 
 .popimg { 
    width: 52%;
@@ -324,13 +311,11 @@ content,h2
     justify-content: space-between;
     margin-bottom: 1rem;
 }
-
 .global {
     
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
 /*activités*/
 .flex 
@@ -339,7 +324,6 @@ content,h2
   width: 93.75rem;
   height: 37.5rem;
 }
-
 .activtitre
 {
   box-shadow: 0rem 0.313rem 1.125rem 0.438rem rgb(242, 242, 242);
@@ -347,7 +331,6 @@ content,h2
   border-bottom-right-radius: 1rem;
   border-top-left-radius: 1.375rem;
   border-top-right-radius: 1.375rem;
-
 }
 .activtitre img
 {
@@ -358,9 +341,7 @@ content,h2
 .flex span
 {
  padding-left:10%; 
-
 }
-
 /*vieux Port*/
 /*img*/
 .port,.cal
@@ -368,14 +349,11 @@ content,h2
   height: 88%;
   width: 100%;
 }
-
 /*txt*/
 .marginstart
-{
- 
+{ 
  margin-bottom: 4%;
  width: 39%;
-
 }
 /*column2*/
 .activcolumn2
@@ -383,9 +361,7 @@ content,h2
   margin-left: 3%;
   width: 39%;
 }
-
-/*Fort de Pomègues*/
-/*img*/
+/*Fort de Pomègues-img*/
 .small
 {
   height: 75%;
@@ -393,11 +369,9 @@ content,h2
 }
 /*txt*/
 .pomegues
-{
- 
+{ 
   height: 42%;
-  width: 100%;
-  
+  width: 100%;  
 }
 /*iles du Frioul*/
 /*img*/
@@ -418,47 +392,38 @@ content,h2
  margin-left: 3%; 
  width: 39%;
 }
- /*notre dame de la garde*/
- /*img*/
-.nddlg
+ /*notre dame de la garde-img*/
+ .nddlg
 {
   height: 69%;
-  width: 100%;
- 
+  width: 100%; 
 }
 /*txt*/
 .marginnotredame
-{
-   
+{   
    height: 35%;
    width: 100%
 }
-/*Longchamps*/
-/*img*/
+/*Longchamps-img*/
 .longchamp
 {
   height: 77.8%;
-  width: 100%;
- 
+  width: 100%; 
 }
 /*txt*/
 .marginlongchamp
-{
-  
+{  
   margin-top: 15%;
   height: 46%;
   width: 100%;
 }
-
 /*Footer*/
-
 footer {
   padding: 2.6rem 2rem 1rem 2.4rem;
   display: flex;
   height: 13.25rem;
   width: 96%;
 }
-
 .foo1 {
     display: flex;
     flex-direction: column;
@@ -473,8 +438,8 @@ footer {
     font-weight: bold;
     margin-bottom: 1rem;
 }
-
 .foo1 a {
     text-decoration: none;
     color:var(--color-black)
 }
+/*FIN*/
