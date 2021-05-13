@@ -280,12 +280,12 @@ content,h2
   border-radius: 1.875rem;
 }
 .padding {
-    padding-left: 4rem;
-    padding-right: 4rem;
+  padding-left: 4.25%;
+  padding-right: 4.25%;
 }
 .end
 {
-  padding-bottom: 3rem;
+  padding-bottom: 3.20%;
 }
 
 .select {
