@@ -29,30 +29,21 @@ body
 }
 .logo
 {
-  /*width: 7%;*/
- /* padding-top: 1.03846154rem; */
- }
+  width: 7%;
+  padding-top: 1.03846154rem; 
+}
 .header a
 {
  width: 43%;
  text-align: end;
  text-decoration: none;
- 
+ margin-bottom: -17px;
 
 }
 .header a:hover
 {
   color: var(--color-blue);
   border-top: 0.1875rem solid var(--color-blue);
-}
-.titre_s
-{
-  color: var(--color-blue);
-  font-weight: bold;
-}
-nav .titre_s:hover
-{
-    border-top:none; 
 }
 .header-bar
 {
@@ -104,10 +95,10 @@ h2.visibility
 
 content,h1
 {
-    font-size: 139%;
-    margin-top: 0.7%;
-    margin-bottom: 2.3%;
-    padding-top: 2.2%;
+    font-size: 1.3875rem;
+    margin-top: 0.630rem;
+    margin-bottom: 2.205rem;
+    padding-top: 2rem;
 }
 
 content,h3
@@ -124,13 +115,6 @@ content,h2
 {
   display:none;
 }
-.Search
-{
-  display: flex;
-  height: 5rem;
-  align-items: center;
-  margin-left: -4.3%;
-}
 .Search i
 {
     float: left; 
@@ -138,9 +122,9 @@ content,h2
     justify-content: center;
     align-items: center;
     border-radius: 0.9375rem 0rem 0rem 0.9375rem;
-    width: 2.5rem;
+    width: 3%;
     height: 2.5rem;
-    color: var(--color-black);
+    
 }
 .Search input 
 {
@@ -159,7 +143,6 @@ content,h2
     cursor: pointer;
     display: inline-block;
     border: 0;
-
 }
 
 /*Filtre*/
@@ -255,7 +238,7 @@ content,h2
     flex-direction: column;
     text-decoration: none;
     margin-top: 3rem;
-    box-shadow: 0rem 0rem 0.625rem 0.625rem rgba(242, 242, 242);
+    box-shadow: 0px 0px 0.625rem 0.625rem rgba(242, 242, 242);
 }
 .imghebergements {
     border-top-left-radius: 1.0329244673983216rem;
@@ -427,7 +410,7 @@ content,h2
 {
  width: 100%;
  height: 35%;
- margin-top: 22.6%;
+ margin-top: 22%;
 }
 /*txt*/
 .marg2
@@ -469,19 +452,21 @@ content,h2
 
 /*Footer*/
 
-footer{
- padding: 2% 2% 2% 2%;
- display: flex;
- justify-content: space-between;
- height: 13.25rem;
+footer {
+  padding: 2.6rem 2rem 1rem 2.4rem;
+  display: flex;
+  height: 13.25rem;
+  width: 96%;
 }
 
 .foo1 {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  justify-content: space-around;
-
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem;
+    line-height: 2rem;
+    width: 32%;
+    text-decoration: none;
+    color:var(--color-black)
 }
 .footergras {
     font-size: 1rem;
@@ -489,7 +474,7 @@ footer{
     margin-bottom: 1rem;
 }
 
-/*.foo1 a {
+.foo1 a {
     text-decoration: none;
     color:var(--color-black)
 }
