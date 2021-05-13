@@ -28,6 +28,8 @@ body{
 /*Recherche*/
 .Search{
    width: 200%;
+   margin-top: 3%;
+   margin-left: -9.4%;
 }
 .Banner_Filtre {
 	display: flex;

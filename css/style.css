@@ -115,6 +115,11 @@ content,h2
 {
   display:none;
 }
+.Search{
+  display: flex;
+  margin-top: 2%;
+  margin-left: -4.4%;
+}
 .Search i
 {
     float: left; 
@@ -179,8 +184,8 @@ content,h2
   align-items: center;
   background-color: var(--color-cylan);
   border-radius: 100%;
-  width: 3.125rem;
-  height: 3.125rem;
+  width: 23%;
+  height: 100%;
   color: var(--color-blue);
   margin-right: 0.625rem;
 }

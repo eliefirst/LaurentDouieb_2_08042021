@@ -43,45 +43,85 @@ content, h1 {
 content,a{
   margin-left: 0.125rem;
 }
+/*serach*/
 .Bouton{
    display: none;
+}
+.Search{
+  margin-top: 8%;
+  margin-left: -18.4%;
+}
+.Search i
+{
+  width: 14%;
+  height: 3rem;
+  margin-left: 1%;
 }
 #icon-search{
   display: block;
   background-color: var(--color-blue);
-  height: 30%;
-  width: 7%;
+  height: 2rem;
+  width: 8%;
   padding-left: 0.875rem;
   padding-top: 0.875rem;
   color: var(--color-white);
   border-radius: 0.938rem;
-  margin-left: -8%;
+  margin-left: -3%;
 }
 .Search input{
-  width: 13rem;
+  width: 55%;
   border-right-width: 0px;
+  height: 3rem;
 }
 input{
   background-color: transparent;
 }
 .Filtre{
-  margin-left: 0.125rem;
-  width: 23.438rem;
+  margin-left: 2%;
+  width: 82%;
+  margin-top: 8%;
 }
-.Banner_Filtre{  
+.Banner_Filtre
+{  
   flex-wrap: wrap;
 }
-.Banfiltre{
-  width: 9.625rem;
-  height: 2.938rem;
-  border-radius: 1.438rem;
-  border: 0.12rem solid var(--color-gray);
+.Banfiltre
+{
+  height: 2.563rem;
 }
-.RO{
-  margin-right: 2.25rem;
+.Banfiltre i 
+{
+  width: 46px;
 }
-.AN{
-  width: 13.625rem;
+.content, h2
+{
+  padding-left: 7px;
+  padding-top: 1px
+}
+.EC
+{
+  width: 42%;
+  margin-left: 1%;
+}
+.FA
+{
+  width:  32.3%;
+  
+}
+.RO
+{
+  width: 41%;
+  margin-left: 1%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.AN
+{
+  width: 61%;
+  margin-left: 1%;
+}
+.Info {
+    margin-top: 1rem;
 }
 /*populaires*/
 .global
