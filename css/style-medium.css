@@ -91,12 +91,12 @@ input{
 }
 .Banfiltre i 
 {
-  width: 46px;
+  width: 2.875rem;
 }
 .content, h2
 {
-  padding-left: 7px;
-  padding-top: 1px
+  padding-left: 0.438rem;
+  padding-top: 0.063rem;
 }
 .EC
 {
@@ -130,22 +130,25 @@ input{
 }
 .populaires
 {
- width: 18rem;
+ width: 99%;
  border-radius: 0;
  margin-left: -0.625rem;
 }
 .pop 
 { 
-  border-radius: 6.25vw;
+  border-radius: 5.25vw;
   margin-top: 3vw;
   height: 42.021vw;
-  width: 136%;
-  margin-left: -3.438rem;
+  width: 100%;
+  margin-left: -2%;
 }
 /*hebergements*/
-/*.affich{
-  margin-left: -3rem;
-}*/
+#hebergements{
+  width: 113%;
+  margin-left: -19%;
+  margin-bottom: -18%;
+}
+
 .select{
   margin: -2.438rem 0 -0.25rem -3rem;
   width: 86%;
@@ -157,49 +160,67 @@ input{
 }
 .hebergements
 {
-  width: 72%;
+  width: 73%;
   background: var(--color-white);
-  margin-left: -0.563rem;
+  margin-left: 2.437rem;
+}
+.imghebergements{
+  height: 11rem;
 }
 .heberg {
   width: 132%;
   box-shadow: 0rem 0.313rem 1.125rem 0.438rem rgb(242, 242, 242);
   margin-left: -3.313rem;
 }
+/*Activites*/
 .flex {
-  flex-direction: column;
-  height: 585vw;
-  justify-content: space-around;
-  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  /*flex-direction: column;*/
+  justify-content: space-between;
 }
-.activtitre img {
-  width: 230%;
-  height: 66%;
+.flex div {
+    width: 100%;
+  margin-left:0rem;
+  height:15.5rem;
+  margin-bottom:1.125rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.flex img{
+  height:11.25rem;
+  
+}
+.flex div:nth-child(1){
+  margin-left: 0;
+    height: 15rem;
+}
+.flex div:nth-child(2){
+  height: 15rem;
+}
+.flex div:nth-child(3){
+  height: 15rem;
+}
+.flex div:nth-child(4){
+  height: 15rem;
+}
+.flex div:nth-child(5){
+  height: 15rem ; 
+}
+.flex div:nth-child(6){
+  height: 15rem;
+}
 footer
 {
   flex-direction: column;
-  height: 100vw;
-  margin-top: 93px;
+  height: 0%;
+  width: 82%;
+  
 }
-.foo1
-{
+.foo1 {
   margin-bottom: 10vw;
-  line-height: 2vw;
+  line-height: 4vw;
   width: 64%;
-
+  height: 10.563rem;
 }
 .foo1 a {
   margin-top: 5vw;

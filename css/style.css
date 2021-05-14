@@ -34,7 +34,7 @@ body
  width: 43%;
  text-align: end;
  text-decoration: none;
- margin-bottom: -17px;
+ margin-bottom: -1.063rem;
 
 }
 .header a:hover
@@ -237,7 +237,7 @@ content,h2
     flex-direction: column;
     text-decoration: none;
     margin-top: 3rem;
-    box-shadow: 0px 0px 0.625rem 0.625rem rgba(242, 242, 242);
+    box-shadow: 0rem 0rem 0.625rem 0.625rem rgba(242, 242, 242);
 }
 .imghebergements {
     border-top-left-radius: 1.0329244673983216rem;
@@ -282,10 +282,12 @@ content,h2
   padding-bottom: 3.20%;
 }
 .select {
-    padding-top: 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -2rem;
+  margin-left: 0.8rem;
 }
 .select
 {
@@ -315,6 +317,7 @@ content,h2
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 1rem;
+    margin-left: 3%;
 }
 .global {
     
@@ -322,112 +325,105 @@ content,h2
     flex-direction: row-reverse;
     justify-content: space-between;    
 }
+#Activites{
+  margin-top:-5%;
+}
+.activite-titre{
+  margin-left:0%;
+  margin-bottom: 1%;
+}
 /*activités*/
-.flex 
+.flex div
 {
-  display: flex;
-  width: 93.75rem;
-  height: 37.5rem;
-}
-.activtitre
-{
+  width: 22.5%;
+    margin-left: 3.125rem;
   box-shadow: 0rem 0.313rem 1.125rem 0.438rem rgb(242, 242, 242);
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-  border-top-left-radius: 1.375rem;
-  border-top-right-radius: 1.375rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1.375rem;
+    border-top-right-radius: 1.375rem;
 }
-.activtitre img
+.flex span{ 
+  margin-left:5%;
+} 
+
+.flex{
+  display:flex;
+  flex-wrap:wrap;
+  height:31.25rem;
+  margin: 1.5%;
+  flex-direction:column;
+  justify-content:space-between;  
+}
+.flex img
+{ 
+  object-fit: cover;
+}
+/*Vieux Port*/
+.flex div:nth-child(1){
+  height:31.25rem;
+    margin-left: -1.438rem; 
+}
+.port{  
+  height: 27.5rem;
+  width:  100%;
+    /*margin-left:0;*/
+}
+/*pomegues*/
+.flex div:nth-child(2){
+  height: 13.313rem;  
+}
+.small{
+  height: 9.375rem;
+  width:  100%; 
+}
+/*Frioul*/
+.flex div:nth-child(3){
+  height: 11.563rem ;
+}
+.xs{
+  height: 7.875rem;
+  width:  100%;
+}
+/*col2*/
+/*calanques*/
+.flex div:nth-child(4){
+  height:31.25rem;    
+}
+.cal{ 
+  height: 27.5rem;
+  width:  100%;    
+}
+/*notre dame*/
+.flex div:nth-child(5){
+  height: 16.375rem;  
+}
+.nddlg{
+  height: 12.313rem;
+  width:  100%;
+}
+/*lonchamp*/
+.flex div:nth-child(6){
+  height: 13.125rem ;    
+}
+.longchamp{
+  height: 9.438rem;
+    width: 100%;
+}
+.flex img
 {
   border-top-left-radius: 1.375rem;
   border-top-right-radius: 1.375rem;
   object-fit: cover;
 }
-.flex span
-{
- padding-left:10%; 
-}
-/*vieux Port*/
-/*img*/
-.port,.cal
-{ 
-  height: 88%;
-  width: 100%;
-}
-/*txt*/
-.marginstart
-{ 
- margin-bottom: 4%;
- width: 39%;
-}
-/*column2*/
-.activcolumn2
-{
-  margin-left: 3%;
-  width: 39%;
-}
-/*Fort de Pomègues-img*/
-.small
-{
-  height: 75%;
-  width: 100%;
-}
-/*txt*/
-.pomegues
-{ 
-  height: 42%;
-  width: 100%;  
-}
-/*iles du Frioul*/
-/*img*/
-.xs
-{
-  height:70%;
-  width:100%;
-}
-.frioul
-{
- width: 100%;
- height: 35%;
- margin-top: 22%;
-}
-/*txt*/
-.marg2
-{
- margin-left: 3%; 
- width: 39%;
-}
- /*notre dame de la garde-img*/
- .nddlg
-{
-  height: 69%;
-  width: 100%; 
-}
-/*txt*/
-.marginnotredame
-{   
-   height: 35%;
-   width: 100%
-}
-/*Longchamps-img*/
-.longchamp
-{
-  height: 77.8%;
-  width: 100%; 
-}
-/*txt*/
-.marginlongchamp
-{  
-  margin-top: 15%;
-  height: 46%;
-  width: 100%;
-}
+
 /*Footer*/
 footer {
   padding: 2.6rem 2rem 1rem 2.4rem;
   display: flex;
   height: 13.25rem;
-  width: 96%;
+  width: 100%;
+  margin-top: 4%;
 }
 .foo1 {
     display: flex;

@@ -32,26 +32,26 @@ body{
    margin-left: -9.4%;
 }
 .Banner_Filtre {
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
-.Banfiltre {	
-	width: 28.3%;	
+.Banfiltre {  
+  width: 28.3%; 
 }
 .Filtre {
-	width: 19%;
+  width: 19%;
 }
 
 .RO{
-	margin-left: 19%;
+  margin-left: 19%;
 }
 /*hebergement*/
 .global{
-	flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
 }
 .hebergements {
-	
-	width: auto;
+  
+  width: auto;
 }
 .heberg{
     width: 48%;
@@ -67,28 +67,47 @@ body{
   padding-left: 2.25%;
   padding-right: 2.25%;
 }
-.flex{
-	width: auto;
-	margin-left: -2%;
-    margin-right: -2%;
+/*Activites*/
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  /*flex-direction: column;*/
+  justify-content: space-between;
 }
-.flex span {
-	font-size: 70%;
-	padding-left:4%
+.flex div {
+    width: 100%;
+  margin-left:0rem;
+  height:15.5rem;
+  margin-bottom:1.125rem;
 }
-
-.marginstart{
-	margin-bottom: 13%;
+.flex img{
+  height:11.25rem;
+  
 }
-.marginlongchamp {
-	margin-top: 1rem;
+.flex div:nth-child(1){
+  margin-left: 0;
+    height: 15rem;
 }
-footer{	
-  padding-top: 5%;
-  padding-right: 5%;
-  padding-bottom: 5%;
-  padding-left: 5%;
+.flex div:nth-child(2){
+  height: 15rem;
 }
+.flex div:nth-child(3){
+  height: 15rem;
+}
+.flex div:nth-child(4){
+  height: 15rem;
+}
+.flex div:nth-child(5){
+  height: 15rem ; 
+}
+.flex div:nth-child(6){
+  height: 15rem;
+}
+footer{ 
+  padding: 5%;
+  width: 90%;
+ }
 .foo1{
-	width: 32.5%;
+  width: 32.5%;
 }
