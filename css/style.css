@@ -22,7 +22,8 @@ body
 }
 #bloc_page {
  
-   margin: 2.5% 2.5% 0 2.5%;
+   margin: 0 auto;
+   max-width: 85rem;
 }
 .logo
 {
@@ -32,18 +33,18 @@ body
 .header a
 {
  width: 43%;
- text-align: end;
+ text-align: center;
  text-decoration: none;
- margin-bottom: -1.063rem;
-
+ padding-top: 1.9rem;
 }
 .header a:hover
 {
   color: var(--color-blue);
-  border-top: 0.1875rem solid var(--color-blue);
+  border-top: 0.2rem solid var(--color-blue); 
+  padding-top:1.7rem;
 }
 nav .titre_s:hover {
-  border-top: none;  
+  border-top: none; 
 }
 .titre_s{
   font-weight: bold;
@@ -53,14 +54,14 @@ nav .titre_s:hover {
 {
  display: flex;
  justify-content: space-between;
- align-items: center;
+ height: 4.125rem;
 }
 .header-nav
 {
  width: 30%;
  display:flex;
- justify-content: space-evenly;
- align-items: center;
+ justify-content: space-evenly; 
+ align-items: baseline;
 }
 
 
@@ -78,11 +79,6 @@ nav a ,a,.menu,li
    color: var(--color-black);
    text-decoration: none;
    list-style-type: none;
-}
-nav a:hover 
-{
-   color: var(--color-blue);
-   border-top: 0.1875rem solid var(--color-blue);
 }
 span
 {
@@ -184,7 +180,7 @@ content,h2
   align-items: center;
   background-color: var(--color-cylan);
   border-radius: 100%;
-  width: 23%;
+  width: 28%;
   height: 100%;
   color: var(--color-blue);
   margin-right: 0.625rem;
@@ -424,6 +420,8 @@ footer {
   height: 13.25rem;
   width: 100%;
   margin-top: 4%;
+  margin: 0 auto;
+    max-width: 85rem;
 }
 .foo1 {
     display: flex;
@@ -433,6 +431,7 @@ footer {
     width: 32%;
     text-decoration: none;
     color:var(--color-black)
+    
 }
 .footergras {
     font-size: 1rem;

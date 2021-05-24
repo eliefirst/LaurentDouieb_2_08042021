@@ -6,9 +6,15 @@ body
 }
 .logo{
  width: 35%;
- padding-bottom: 18%;
+ 
+ padding-bottom: 9%;
+ margin-bottom: 32px;
+ padding-top: 1.038rem;
 }
-
+#bloc_page {
+  margin: 0 auto;
+  max-width: 25rem;
+}
 .header-nav{
   width: 86%;
   flex-wrap: wrap-reverse;
@@ -16,9 +22,14 @@ body
 }
 .header-nav :nth-child(3){ 
  flex-grow: 1; 
+ flex-grow: 1;
+ padding-left: 63%;
+ padding-top: 5%;
+ margin-top: -6%;
 }
 .header-nav :nth-child(1){ 
  flex-grow: 1;
+ margin-left: -45%;
 }
 .header-nav :nth-child(2){ 
  flex-grow: 1;
@@ -53,9 +64,9 @@ content,a{
 }
 .Search i
 {
-  width: 14%;
+  width: 10%;
   height: 3rem;
-  margin-left: 1%;
+  margin-left:6%;
 }
 #icon-search{
   display: block;
@@ -66,12 +77,19 @@ content,a{
   padding-top: 0.875rem;
   color: var(--color-white);
   border-radius: 0.938rem;
-  margin-left: -3%;
+  margin-left: -7%;
+  margin-top: 0.3%;
 }
 .Search input{
-  width: 55%;
-  border-right-width: 0px;
-  height: 3rem;
+ width: 55%;
+ border-right: none;
+ border-left: none;
+ height: 3rem;
+ border-bottom: 0.06rem solid var(--color-gray);
+ border-top: 0.06rem solid var(--color-gray);
+ font-weight: bold;
+ padding-left: 5%;
+
 }
 input{
   background-color: transparent;
@@ -91,7 +109,8 @@ input{
 }
 .Banfiltre i 
 {
-  width: 2.875rem;
+  width: 3rem;
+  height: 106%;
 }
 .content, h2
 {
@@ -214,13 +233,14 @@ footer
   flex-direction: column;
   height: 0%;
   width: 82%;
+  max-width: 25rem;
   
 }
 .foo1 {
   margin-bottom: 10vw;
   line-height: 4vw;
   width: 64%;
-  height: 10.563rem;
+  height: 11.5rem;
 }
 .foo1 a {
   margin-top: 5vw;
